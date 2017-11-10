@@ -1,0 +1,236 @@
+|Lab_3b
+SW[0] => SW[0].IN1
+SW[1] => SW[1].IN1
+SW[2] => SW[2].IN1
+SW[3] => SW[3].IN1
+SW[4] => SW[4].IN1
+SW[5] => SW[5].IN1
+SW[6] => SW[6].IN1
+SW[7] => SW[7].IN1
+SW[8] => SW[8].IN1
+SW[9] => SW[9].IN1
+BUTTON[0] => ~NO_FANOUT~
+BUTTON[1] => ~NO_FANOUT~
+BUTTON[2] => ~NO_FANOUT~
+HEX0[0] <= hex_to_seven_seg_structural:inst1.port1
+HEX0[1] <= hex_to_seven_seg_structural:inst1.port1
+HEX0[2] <= hex_to_seven_seg_structural:inst1.port1
+HEX0[3] <= hex_to_seven_seg_structural:inst1.port1
+HEX0[4] <= hex_to_seven_seg_structural:inst1.port1
+HEX0[5] <= hex_to_seven_seg_structural:inst1.port1
+HEX0[6] <= hex_to_seven_seg_structural:inst1.port1
+HEX1[0] <= hex_to_seven_seg_dataflow:inst2.port1
+HEX1[1] <= hex_to_seven_seg_dataflow:inst2.port1
+HEX1[2] <= hex_to_seven_seg_dataflow:inst2.port1
+HEX1[3] <= hex_to_seven_seg_dataflow:inst2.port1
+HEX1[4] <= hex_to_seven_seg_dataflow:inst2.port1
+HEX1[5] <= hex_to_seven_seg_dataflow:inst2.port1
+HEX1[6] <= hex_to_seven_seg_dataflow:inst2.port1
+HEX2[0] <= hex_to_seven_seg_behavioral:inst3.port1
+HEX2[1] <= hex_to_seven_seg_behavioral:inst3.port1
+HEX2[2] <= hex_to_seven_seg_behavioral:inst3.port1
+HEX2[3] <= hex_to_seven_seg_behavioral:inst3.port1
+HEX2[4] <= hex_to_seven_seg_behavioral:inst3.port1
+HEX2[5] <= hex_to_seven_seg_behavioral:inst3.port1
+HEX2[6] <= hex_to_seven_seg_behavioral:inst3.port1
+
+
+|Lab_3b|hex_to_seven_seg_structural:inst1
+in[0] => in[0].IN7
+in[1] => in[1].IN7
+in[2] => in[2].IN7
+in[3] => in[3].IN7
+out[0] <= seg_A:inst1.port1
+out[1] <= seg_B:inst2.port1
+out[2] <= seg_C:inst3.port1
+out[3] <= seg_D:inst4.port1
+out[4] <= seg_E:inst5.port1
+out[5] <= seg_F:inst6.port1
+out[6] <= seg_G:inst7.port1
+
+
+|Lab_3b|hex_to_seven_seg_structural:inst1|seg_A:inst1
+in[0] => and3.IN0
+in[0] => and1.IN0
+in[0] => and4.IN0
+in[1] => and5.IN0
+in[1] => and6.IN0
+in[1] => and2.IN0
+in[2] => and3.IN1
+in[2] => and5.IN1
+in[2] => and1.IN1
+in[2] => and2.IN1
+in[3] => and2.IN2
+in[3] => and4.IN1
+in[3] => and3.IN2
+in[3] => and6.IN1
+A <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab_3b|hex_to_seven_seg_structural:inst1|seg_B:inst2
+in[0] => and2.IN0
+in[0] => and3.IN0
+in[0] => and1.IN0
+in[0] => and4.IN0
+in[1] => and3.IN1
+in[1] => and2.IN1
+in[1] => and4.IN1
+in[2] => and1.IN1
+in[2] => and5.IN0
+in[3] => and2.IN2
+in[3] => and3.IN2
+in[3] => and4.IN2
+in[3] => and5.IN1
+B <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab_3b|hex_to_seven_seg_structural:inst1|seg_C:inst3
+in[0] => and3.IN0
+in[0] => and5.IN0
+in[1] => and1.IN0
+in[1] => and3.IN1
+in[2] => and4.IN0
+in[2] => and2.IN0
+in[3] => and2.IN1
+in[3] => and1.IN1
+in[3] => and4.IN1
+in[3] => and5.IN1
+C <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab_3b|hex_to_seven_seg_structural:inst1|seg_D:inst4
+in[0] => and1.IN0
+in[0] => and4.IN0
+in[0] => and2.IN0
+in[0] => and3.IN0
+in[0] => and5.IN0
+in[1] => and1.IN1
+in[1] => and5.IN1
+in[1] => and3.IN1
+in[1] => and4.IN1
+in[2] => and4.IN2
+in[2] => and5.IN2
+in[2] => and1.IN2
+in[2] => and2.IN1
+in[3] => and3.IN2
+in[3] => and2.IN2
+D <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab_3b|hex_to_seven_seg_structural:inst1|seg_E:inst5
+in[0] => and1.IN0
+in[0] => and3.IN0
+in[1] => and2.IN0
+in[1] => and3.IN1
+in[2] => and4.IN0
+in[2] => and1.IN1
+in[3] => and2.IN1
+in[3] => and4.IN1
+E <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab_3b|hex_to_seven_seg_structural:inst1|seg_F:inst6
+in[0] => and1.IN0
+in[0] => and3.IN0
+in[1] => and5.IN0
+in[1] => and1.IN1
+in[1] => and2.IN0
+in[2] => and2.IN1
+in[2] => and3.IN1
+in[2] => and4.IN0
+in[3] => and4.IN1
+in[3] => and5.IN1
+in[3] => and2.IN2
+F <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab_3b|hex_to_seven_seg_structural:inst1|seg_G:inst7
+in[0] => and4.IN0
+in[0] => and2.IN0
+in[1] => and1.IN0
+in[1] => and2.IN1
+in[1] => and3.IN0
+in[2] => and3.IN1
+in[2] => and1.IN1
+in[2] => and5.IN0
+in[3] => and4.IN1
+in[3] => and5.IN1
+in[3] => and3.IN2
+G <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab_3b|hex_to_seven_seg_dataflow:inst2
+in[0] => A.IN1
+in[0] => B.IN1
+in[0] => B.IN1
+in[0] => C.IN0
+in[0] => C.IN0
+in[0] => D.IN1
+in[0] => D.IN1
+in[0] => G.IN0
+in[0] => G.IN0
+in[0] => F.IN0
+in[0] => F.IN0
+in[0] => E.IN0
+in[0] => D.IN1
+in[0] => D.IN1
+in[0] => D.IN1
+in[0] => B.IN1
+in[0] => A.IN0
+in[1] => B.IN0
+in[1] => D.IN0
+in[1] => F.IN0
+in[1] => G.IN0
+in[1] => G.IN1
+in[1] => G.IN1
+in[1] => F.IN1
+in[1] => D.IN0
+in[1] => D.IN0
+in[1] => C.IN1
+in[1] => C.IN0
+in[1] => C.IN0
+in[1] => A.IN1
+in[2] => D.IN1
+in[2] => D.IN1
+in[2] => E.IN0
+in[2] => F.IN1
+in[2] => G.IN0
+in[2] => G.IN0
+in[2] => G.IN1
+in[2] => E.IN1
+in[2] => D.IN0
+in[2] => C.IN1
+in[3] => A.IN1
+in[3] => D.IN1
+in[3] => E.IN1
+in[3] => F.IN1
+in[3] => G.IN1
+in[3] => G.IN1
+in[3] => G.IN1
+in[3] => D.IN1
+in[3] => C.IN1
+in[3] => C.IN1
+in[3] => B.IN1
+out[0] <= A.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= B.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= C.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= D.DB_MAX_OUTPUT_PORT_TYPE
+out[4] <= E.DB_MAX_OUTPUT_PORT_TYPE
+out[5] <= F.DB_MAX_OUTPUT_PORT_TYPE
+out[6] <= G.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab_3b|hex_to_seven_seg_behavioral:inst3
+in[0] => Decoder0.IN3
+in[1] => Decoder0.IN2
+in[2] => Decoder0.IN1
+in[3] => Decoder0.IN0
+out[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+out[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+out[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+out[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

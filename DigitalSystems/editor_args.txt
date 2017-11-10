@@ -1,0 +1,297 @@
+kk
+
+
+0 /home/tim/Rowan/DigitalSystems/Projects/Lab_1/Lab_1.v
+/home/tim/Rowan/DigitalSystems/Projects/Lab_1/Lab_1.v
+/home/tim/Rowan/DigitalSystems/Projects/Lab_1/Lab_1.v
+/home/tim/Rowan/DigitalSystems/Projects/Lab_1/Lab_1.v
+/home/tim/Rowan/DigitalSystems/Projects/Lab_1/lab_1_testbench.v
+/home/tim/Rowan/DigitalSystems/Projects/Lab_1/Lab_1.v
+/home/tim/Rowan/DigitalSystems/Projects/Lab_1/Lab_1.v
+/home/tim/Rowan/DigitalSystems/Projects/Lab_1/Lab_1.v
+Started Code
+/home/tim/Rowan/DigitalSystems/Projects/Lab_1/Lab_1.v
+Started Code
+/home/tim/Rowan/DigitalSystems/Projects/Lab_1/Lab_1.v
+Started Code
+/home/tim/Rowan/DigitalSystems/Projects/Lab_1/Lab_1.v
+Started Code
+/home/tim/Rowan/DigitalSystems/Projects/Lab_1/Lab_1.v
+Started Code
+/home/tim/Rowan/DigitalSystems/Projects/Lab_1/Lab_1.v
+Started Code
+/home/tim/Rowan/DigitalSystems/Projects/Lab_1/Lab_1.v
+Started Code
+/home/tim/Rowan/DigitalSystems/Projects/Lab_1/Lab_1.v
+Started Code
+
+Visual Studio Code 1.16.0
+
+Usage: code [options] [paths...]
+
+Options:
+  -d, --diff <file> <file>
+      Compare two files with each other.
+  -a, --add <dir>
+      Add folder(s) to the last active window.
+  -g, --goto <file:line[:character]>
+      Open a file at the path on the specified line and character position.
+  --locale <locale>
+      The locale to use (e.g. en-US or zh-TW).
+  -n, --new-window
+      Force a new instance of Code.
+  -p, --performance
+      Start with the 'Developer: Startup Performance' command enabled.
+  --prof-startup
+      Run CPU profiler during startup
+  -r, --reuse-window
+      Force opening a file or folder in the last active window.
+  --user-data-dir <dir>
+      Specifies the directory that user data is kept in, useful when running as root.
+  --verbose
+      Print verbose output (implies --wait).
+  -w, --wait
+      Wait for the window to be closed before returning.
+  --extensions-dir <dir>
+      Set the root path for extensions.
+  --list-extensions
+      List the installed extensions.
+  --show-versions
+      Show versions of installed extensions, when using --list-extension.
+  --install-extension (<extension-id> | <extension-vsix-path>)
+      Installs an extension.
+  --uninstall-extension <extension-id>
+      Uninstalls an extension.
+  --enable-proposed-api <extension-id>
+      Enables proposed api features for an extension.
+  --disable-extensions
+      Disable all installed extensions.
+  --disable-gpu
+      Disable GPU hardware acceleration.
+  -v, --version
+      Print version.
+  -h, --help
+      Print usage.
+Started Code
+
+Visual Studio Code 1.16.0
+
+Usage: code [options] [paths...]
+
+Options:
+  -d, --diff <file> <file>
+      Compare two files with each other.
+  -a, --add <dir>
+      Add folder(s) to the last active window.
+  -g, --goto <file:line[:character]>
+      Open a file at the path on the specified line and character position.
+  --locale <locale>
+      The locale to use (e.g. en-US or zh-TW).
+  -n, --new-window
+      Force a new instance of Code.
+  -p, --performance
+      Start with the 'Developer: Startup Performance' command enabled.
+  --prof-startup
+      Run CPU profiler during startup
+  -r, --reuse-window
+      Force opening a file or folder in the last active window.
+  --user-data-dir <dir>
+      Specifies the directory that user data is kept in, useful when running as root.
+  --verbose
+      Print verbose output (implies --wait).
+  -w, --wait
+      Wait for the window to be closed before returning.
+  --extensions-dir <dir>
+      Set the root path for extensions.
+  --list-extensions
+      List the installed extensions.
+  --show-versions
+      Show versions of installed extensions, when using --list-extension.
+  --install-extension (<extension-id> | <extension-vsix-path>)
+      Installs an extension.
+  --uninstall-extension <extension-id>
+      Uninstalls an extension.
+  --enable-proposed-api <extension-id>
+      Enables proposed api features for an extension.
+  --disable-extensions
+      Disable all installed extensions.
+  --disable-gpu
+      Disable GPU hardware acceleration.
+  -v, --version
+      Print version.
+  -h, --help
+      Print usage.
+Started Code
+
+Started Code
+
+Started Code
+/home/tim/Rowan/DigitalSystems/Projects/Lab_1/Lab_1.v
+Started Code
+LD_LIBRARY_PATH=/home/tim/Rowan/DigitalSystems/Altera/quartus/linux64: XDG_MENU_PREFIX=gnome- QUARTUS_ROOTDIR=/home/tim/Rowan/DigitalSystems/Altera/quartus/ LANG=C GDM_LANG=en_US.UTF-8 DISPLAY=:0 EDITOR=/usr/bin/nano USERNAME=tim MOZ_PLUGIN_PATH=/usr/lib/mozilla/plugins XDG_VTNR=2 GIO_LAUNCHED_DESKTOP_FILE_PID=14627 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh XDG_SESSION_ID=c2 USER=tim CMD_NAME=quartus DESKTOP_SESSION=gnome-xorg QTEST_LICENSE_FILE= LC_COLLATE=en_US.UTF-8 QUARTUS_ORIG_PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl QUARTUS_QENV=1 UNAME_VERSION=#1 SMP PREEMPT Sun Sep 10 09:41:14 CEST 2017 PWD=/home/tim/Rowan/DigitalSystems HOME=/home/tim TMP=/tmp LC_CTYPE=en_US.UTF-8 BROWSER=/usr/bin/chromium JOURNAL_STREAM=9:20047 QENV_STATUS=0 TCL_LIBRARY=/home/tim/Rowan/DigitalSystems/Altera/quartus/linux64/tcl8.5 XDG_SESSION_TYPE=x11 QUARTUS_BINDIR=/home/tim/Rowan/DigitalSystems/Altera/quartus/linux64/ cmd_line= XDG_SESSION_DESKTOP=gnome-xorg GJS_DEBUG_OUTPUT=stderr LM_APP_DISABLE_CACHE_READ=1 QUARTUS_64BIT=1 SAL_USE_VCLPLUGIN=gtk cpumodel=Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz MAIL=/var/spool/mail/tim WINDOWPATH=2 PATCH_CMD= SHELL=/usr/bin/zsh AWK_CMD=awk XDG_CURRENT_DESKTOP=GNOME UNAME_SYSTEM=Linux GIO_LAUNCHED_DESKTOP_FILE=/home/tim/.local/share/applications/Quartus II 13.0sp1 (64-bit) Web Edition.desktop XDG_SEAT=seat0 SHLVL=1 SCRIPT_PATH=/home/tim/Rowan/DigitalSystems/Altera/quartus/bin UNAME_REVISION=4.12.12-1-ARCH GDMSESSION=gnome-xorg GNOME_DESKTOP_SESSION_ID=this-is-deprecated LOGNAME=tim DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus XDG_RUNTIME_DIR=/run/user/1000 XAUTHORITY=/run/user/1000/gdm/Xauthority PATH=/home/tim/Rowan/DigitalSystems/Altera/quartus/adm:/home/tim/Rowan/DigitalSystems/Altera/quartus/linux64:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl QUARTUS_BIT_TYPE=64 GJS_DEBUG_TOPICS=JS ERROR;JS LOG SESSION_MANAGER=local/p40:@/tmp/.ICE-unix/883,unix/p40:/tmp/.ICE-unix/883 QUARTUS_PLATFORM=linux _=/usr/bin/env
+uid=1000(tim) gid=100(users) groups=100(users),10(wheel),14(uucp),56(bumblebee)
+/home/tim/Rowan/DigitalSystems/Projects/Lab_1/Lab_1.v
+Started Code
+LD_LIBRARY_PATH=/home/tim/Rowan/DigitalSystems/Altera/quartus/linux64: XDG_MENU_PREFIX=gnome- QUARTUS_ROOTDIR=/home/tim/Rowan/DigitalSystems/Altera/quartus/ LANG=C GDM_LANG=en_US.UTF-8 DISPLAY=:0 EDITOR=/usr/bin/nano USERNAME=tim MOZ_PLUGIN_PATH=/usr/lib/mozilla/plugins XDG_VTNR=2 GIO_LAUNCHED_DESKTOP_FILE_PID=14627 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh XDG_SESSION_ID=c2 USER=tim CMD_NAME=quartus DESKTOP_SESSION=gnome-xorg QTEST_LICENSE_FILE= LC_COLLATE=en_US.UTF-8 QUARTUS_ORIG_PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl QUARTUS_QENV=1 UNAME_VERSION=#1 SMP PREEMPT Sun Sep 10 09:41:14 CEST 2017 PWD=/home/tim/Rowan/DigitalSystems HOME=/home/tim TMP=/tmp LC_CTYPE=en_US.UTF-8 BROWSER=/usr/bin/chromium JOURNAL_STREAM=9:20047 QENV_STATUS=0 TCL_LIBRARY=/home/tim/Rowan/DigitalSystems/Altera/quartus/linux64/tcl8.5 XDG_SESSION_TYPE=x11 QUARTUS_BINDIR=/home/tim/Rowan/DigitalSystems/Altera/quartus/linux64/ cmd_line= XDG_SESSION_DESKTOP=gnome-xorg GJS_DEBUG_OUTPUT=stderr LM_APP_DISABLE_CACHE_READ=1 QUARTUS_64BIT=1 SAL_USE_VCLPLUGIN=gtk cpumodel=Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz MAIL=/var/spool/mail/tim WINDOWPATH=2 PATCH_CMD= SHELL=/usr/bin/zsh AWK_CMD=awk XDG_CURRENT_DESKTOP=GNOME UNAME_SYSTEM=Linux GIO_LAUNCHED_DESKTOP_FILE=/home/tim/.local/share/applications/Quartus II 13.0sp1 (64-bit) Web Edition.desktop XDG_SEAT=seat0 SHLVL=1 SCRIPT_PATH=/home/tim/Rowan/DigitalSystems/Altera/quartus/bin UNAME_REVISION=4.12.12-1-ARCH GDMSESSION=gnome-xorg GNOME_DESKTOP_SESSION_ID=this-is-deprecated LOGNAME=tim DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus XDG_RUNTIME_DIR=/run/user/1000 XAUTHORITY=/run/user/1000/gdm/Xauthority PATH=/home/tim/Rowan/DigitalSystems/Altera/quartus/adm:/home/tim/Rowan/DigitalSystems/Altera/quartus/linux64:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl QUARTUS_BIT_TYPE=64 GJS_DEBUG_TOPICS=JS ERROR;JS LOG SESSION_MANAGER=local/p40:@/tmp/.ICE-unix/883,unix/p40:/tmp/.ICE-unix/883 QUARTUS_PLATFORM=linux _=/usr/bin/env
+uid=1000(tim) gid=100(users) groups=100(users),10(wheel),14(uucp),56(bumblebee)
+/home/tim/Rowan/DigitalSystems/Projects/Lab_1/Lab_1.v
+Started Code
+LD_LIBRARY_PATH=/home/tim/Rowan/DigitalSystems/Altera/quartus/linux64: XDG_MENU_PREFIX=gnome- QUARTUS_ROOTDIR=/home/tim/Rowan/DigitalSystems/Altera/quartus/ LANG=C GDM_LANG=en_US.UTF-8 DISPLAY=:0 EDITOR=/usr/bin/nano USERNAME=tim MOZ_PLUGIN_PATH=/usr/lib/mozilla/plugins XDG_VTNR=2 GIO_LAUNCHED_DESKTOP_FILE_PID=14627 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh XDG_SESSION_ID=c2 USER=tim CMD_NAME=quartus DESKTOP_SESSION=gnome-xorg QTEST_LICENSE_FILE= LC_COLLATE=en_US.UTF-8 QUARTUS_ORIG_PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl QUARTUS_QENV=1 UNAME_VERSION=#1 SMP PREEMPT Sun Sep 10 09:41:14 CEST 2017 PWD=/home/tim/Rowan/DigitalSystems HOME=/home/tim TMP=/tmp LC_CTYPE=en_US.UTF-8 BROWSER=/usr/bin/chromium JOURNAL_STREAM=9:20047 QENV_STATUS=0 TCL_LIBRARY=/home/tim/Rowan/DigitalSystems/Altera/quartus/linux64/tcl8.5 XDG_SESSION_TYPE=x11 QUARTUS_BINDIR=/home/tim/Rowan/DigitalSystems/Altera/quartus/linux64/ cmd_line= XDG_SESSION_DESKTOP=gnome-xorg GJS_DEBUG_OUTPUT=stderr LM_APP_DISABLE_CACHE_READ=1 QUARTUS_64BIT=1 SAL_USE_VCLPLUGIN=gtk cpumodel=Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz MAIL=/var/spool/mail/tim WINDOWPATH=2 PATCH_CMD= SHELL=/usr/bin/zsh AWK_CMD=awk XDG_CURRENT_DESKTOP=GNOME UNAME_SYSTEM=Linux GIO_LAUNCHED_DESKTOP_FILE=/home/tim/.local/share/applications/Quartus II 13.0sp1 (64-bit) Web Edition.desktop XDG_SEAT=seat0 SHLVL=1 SCRIPT_PATH=/home/tim/Rowan/DigitalSystems/Altera/quartus/bin UNAME_REVISION=4.12.12-1-ARCH GDMSESSION=gnome-xorg GNOME_DESKTOP_SESSION_ID=this-is-deprecated LOGNAME=tim DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus XDG_RUNTIME_DIR=/run/user/1000 XAUTHORITY=/run/user/1000/gdm/Xauthority PATH=/home/tim/Rowan/DigitalSystems/Altera/quartus/adm:/home/tim/Rowan/DigitalSystems/Altera/quartus/linux64:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl QUARTUS_BIT_TYPE=64 GJS_DEBUG_TOPICS=JS ERROR;JS LOG SESSION_MANAGER=local/p40:@/tmp/.ICE-unix/883,unix/p40:/tmp/.ICE-unix/883 QUARTUS_PLATFORM=linux _=/usr/bin/env
+uid=1000(tim) gid=100(users) groups=100(users),10(wheel),14(uucp),56(bumblebee)
+/home/tim/Rowan/DigitalSystems/Projects/Lab_1/lab_1_testbench.v
+Started Code
+LD_LIBRARY_PATH=/home/tim/Rowan/DigitalSystems/Altera/quartus/linux64: XDG_MENU_PREFIX=gnome- QUARTUS_ROOTDIR=/home/tim/Rowan/DigitalSystems/Altera/quartus/ LANG=C GDM_LANG=en_US.UTF-8 DISPLAY=:0 EDITOR=/usr/bin/nano USERNAME=tim MOZ_PLUGIN_PATH=/usr/lib/mozilla/plugins XDG_VTNR=2 GIO_LAUNCHED_DESKTOP_FILE_PID=14627 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh XDG_SESSION_ID=c2 USER=tim CMD_NAME=quartus DESKTOP_SESSION=gnome-xorg QTEST_LICENSE_FILE= LC_COLLATE=en_US.UTF-8 QUARTUS_ORIG_PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl QUARTUS_QENV=1 UNAME_VERSION=#1 SMP PREEMPT Sun Sep 10 09:41:14 CEST 2017 PWD=/home/tim/Rowan/DigitalSystems HOME=/home/tim TMP=/tmp LC_CTYPE=en_US.UTF-8 BROWSER=/usr/bin/chromium JOURNAL_STREAM=9:20047 QENV_STATUS=0 TCL_LIBRARY=/home/tim/Rowan/DigitalSystems/Altera/quartus/linux64/tcl8.5 XDG_SESSION_TYPE=x11 QUARTUS_BINDIR=/home/tim/Rowan/DigitalSystems/Altera/quartus/linux64/ cmd_line= XDG_SESSION_DESKTOP=gnome-xorg GJS_DEBUG_OUTPUT=stderr LM_APP_DISABLE_CACHE_READ=1 QUARTUS_64BIT=1 SAL_USE_VCLPLUGIN=gtk cpumodel=Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz MAIL=/var/spool/mail/tim WINDOWPATH=2 PATCH_CMD= SHELL=/usr/bin/zsh AWK_CMD=awk XDG_CURRENT_DESKTOP=GNOME UNAME_SYSTEM=Linux GIO_LAUNCHED_DESKTOP_FILE=/home/tim/.local/share/applications/Quartus II 13.0sp1 (64-bit) Web Edition.desktop XDG_SEAT=seat0 SHLVL=1 SCRIPT_PATH=/home/tim/Rowan/DigitalSystems/Altera/quartus/bin UNAME_REVISION=4.12.12-1-ARCH GDMSESSION=gnome-xorg GNOME_DESKTOP_SESSION_ID=this-is-deprecated LOGNAME=tim DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus XDG_RUNTIME_DIR=/run/user/1000 XAUTHORITY=/run/user/1000/gdm/Xauthority PATH=/home/tim/Rowan/DigitalSystems/Altera/quartus/adm:/home/tim/Rowan/DigitalSystems/Altera/quartus/linux64:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl QUARTUS_BIT_TYPE=64 GJS_DEBUG_TOPICS=JS ERROR;JS LOG SESSION_MANAGER=local/p40:@/tmp/.ICE-unix/883,unix/p40:/tmp/.ICE-unix/883 QUARTUS_PLATFORM=linux _=/usr/bin/env
+uid=1000(tim) gid=100(users) groups=100(users),10(wheel),14(uucp),56(bumblebee)
+/home/tim/Rowan/DigitalSystems/Projects/Lab_1/Lab_1.v
+Started Code
+LD_LIBRARY_PATH=/home/tim/Rowan/DigitalSystems/Altera/quartus/linux64: XDG_MENU_PREFIX=gnome- QUARTUS_ROOTDIR=/home/tim/Rowan/DigitalSystems/Altera/quartus/ LANG=C GDM_LANG=en_US.UTF-8 DISPLAY=:0 EDITOR=/usr/bin/nano USERNAME=tim MOZ_PLUGIN_PATH=/usr/lib/mozilla/plugins XDG_VTNR=2 GIO_LAUNCHED_DESKTOP_FILE_PID=28050 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh XDG_SESSION_ID=c2 USER=tim CMD_NAME=quartus DESKTOP_SESSION=gnome-xorg QTEST_LICENSE_FILE= LC_COLLATE=en_US.UTF-8 QUARTUS_ORIG_PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl QUARTUS_QENV=1 UNAME_VERSION=#1 SMP PREEMPT Fri Sep 15 06:36:43 UTC 2017 PWD=/home/tim/Rowan/DigitalSystems HOME=/home/tim TMP=/tmp LC_CTYPE=en_US.UTF-8 BROWSER=/usr/bin/chromium JOURNAL_STREAM=9:41653 QENV_STATUS=0 TCL_LIBRARY=/home/tim/Rowan/DigitalSystems/Altera/quartus/linux64/tcl8.5 XDG_SESSION_TYPE=x11 QUARTUS_BINDIR=/home/tim/Rowan/DigitalSystems/Altera/quartus/linux64/ cmd_line= XDG_SESSION_DESKTOP=gnome-xorg GJS_DEBUG_OUTPUT=stderr LM_APP_DISABLE_CACHE_READ=1 QUARTUS_64BIT=1 SAL_USE_VCLPLUGIN=gtk cpumodel=Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz MAIL=/var/spool/mail/tim WINDOWPATH=2 PATCH_CMD= SHELL=/usr/bin/zsh AWK_CMD=awk XDG_CURRENT_DESKTOP=GNOME UNAME_SYSTEM=Linux GIO_LAUNCHED_DESKTOP_FILE=/home/tim/.local/share/applications/Quartus II 13.0sp1 (64-bit) Web Edition.desktop XDG_SEAT=seat0 SHLVL=1 SCRIPT_PATH=/home/tim/Rowan/DigitalSystems/Altera/quartus/bin UNAME_REVISION=4.12.13-1-ARCH GDMSESSION=gnome-xorg GNOME_DESKTOP_SESSION_ID=this-is-deprecated LOGNAME=tim DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus XDG_RUNTIME_DIR=/run/user/1000 XAUTHORITY=/run/user/1000/gdm/Xauthority PATH=/home/tim/Rowan/DigitalSystems/Altera/quartus/adm:/home/tim/Rowan/DigitalSystems/Altera/quartus/linux64:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl QUARTUS_BIT_TYPE=64 GJS_DEBUG_TOPICS=JS ERROR;JS LOG SESSION_MANAGER=local/p40:@/tmp/.ICE-unix/20785,unix/p40:/tmp/.ICE-unix/20785 QUARTUS_PLATFORM=linux _=/usr/bin/env
+uid=1000(tim) gid=100(users) groups=100(users),10(wheel),14(uucp),56(bumblebee)
+/home/tim/Rowan/DigitalSystems/Projects/Lab_1/Lab_1.v
+Started Code
+LD_LIBRARY_PATH=/home/tim/Rowan/DigitalSystems/Altera/quartus/linux64: XDG_MENU_PREFIX=gnome- QUARTUS_ROOTDIR=/home/tim/Rowan/DigitalSystems/Altera/quartus/ LANG=C GDM_LANG=en_US.UTF-8 DISPLAY=:0 EDITOR=/usr/bin/nano USERNAME=tim MOZ_PLUGIN_PATH=/usr/lib/mozilla/plugins XDG_VTNR=2 GIO_LAUNCHED_DESKTOP_FILE_PID=28050 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh XDG_SESSION_ID=c2 USER=tim CMD_NAME=quartus DESKTOP_SESSION=gnome-xorg QTEST_LICENSE_FILE= LC_COLLATE=en_US.UTF-8 QUARTUS_ORIG_PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl QUARTUS_QENV=1 UNAME_VERSION=#1 SMP PREEMPT Fri Sep 15 06:36:43 UTC 2017 PWD=/home/tim/Rowan/DigitalSystems HOME=/home/tim TMP=/tmp LC_CTYPE=en_US.UTF-8 BROWSER=/usr/bin/chromium JOURNAL_STREAM=9:41653 QENV_STATUS=0 TCL_LIBRARY=/home/tim/Rowan/DigitalSystems/Altera/quartus/linux64/tcl8.5 XDG_SESSION_TYPE=x11 QUARTUS_BINDIR=/home/tim/Rowan/DigitalSystems/Altera/quartus/linux64/ cmd_line= XDG_SESSION_DESKTOP=gnome-xorg GJS_DEBUG_OUTPUT=stderr LM_APP_DISABLE_CACHE_READ=1 QUARTUS_64BIT=1 SAL_USE_VCLPLUGIN=gtk cpumodel=Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz MAIL=/var/spool/mail/tim WINDOWPATH=2 PATCH_CMD= SHELL=/usr/bin/zsh AWK_CMD=awk XDG_CURRENT_DESKTOP=GNOME UNAME_SYSTEM=Linux GIO_LAUNCHED_DESKTOP_FILE=/home/tim/.local/share/applications/Quartus II 13.0sp1 (64-bit) Web Edition.desktop XDG_SEAT=seat0 SHLVL=1 SCRIPT_PATH=/home/tim/Rowan/DigitalSystems/Altera/quartus/bin UNAME_REVISION=4.12.13-1-ARCH GDMSESSION=gnome-xorg GNOME_DESKTOP_SESSION_ID=this-is-deprecated LOGNAME=tim DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus XDG_RUNTIME_DIR=/run/user/1000 XAUTHORITY=/run/user/1000/gdm/Xauthority PATH=/home/tim/Rowan/DigitalSystems/Altera/quartus/adm:/home/tim/Rowan/DigitalSystems/Altera/quartus/linux64:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl QUARTUS_BIT_TYPE=64 GJS_DEBUG_TOPICS=JS ERROR;JS LOG SESSION_MANAGER=local/p40:@/tmp/.ICE-unix/20785,unix/p40:/tmp/.ICE-unix/20785 QUARTUS_PLATFORM=linux _=/usr/bin/env
+uid=1000(tim) gid=100(users) groups=100(users),10(wheel),14(uucp),56(bumblebee)
+/home/tim/Rowan/DigitalSystems/Projects/Lab_1/Lab_1.v
+Started Code
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36: XDG_MENU_PREFIX=gnome- _=/usr/bin/env LANG=en_US.UTF-8 GDM_LANG=en_US.UTF-8 LESS=-R DISPLAY=:0 OLDPWD=/home/tim EDITOR=vim COLORTERM=truecolor USERNAME=tim MOZ_PLUGIN_PATH=/usr/lib/mozilla/plugins XDG_VTNR=2 ZSH=/home/tim/.oh-my-zsh SSH_AUTH_SOCK=/run/user/1000/keyring/ssh XDG_SESSION_ID=c2 USER=tim PAGER=less LSCOLORS=Gxfxcxdxbxegedabagacad DESKTOP_SESSION=gnome-xorg LC_COLLATE=en_US.UTF-8 GOPATH=/home/tim/go PWD=/home/tim/Rowan/DigitalSystems HOME=/home/tim LC_CTYPE=en_US.UTF-8 BROWSER=/usr/bin/chromium JOURNAL_STREAM=9:41653 XDG_SESSION_TYPE=x11 XDG_SESSION_DESKTOP=gnome-xorg GJS_DEBUG_OUTPUT=stderr SAL_USE_VCLPLUGIN=gtk MAIL=/var/spool/mail/tim WINDOWPATH=2 TERM=xterm-256color SHELL=/usr/bin/zsh VTE_VERSION=4803 XDG_CURRENT_DESKTOP=GNOME XDG_SEAT=seat0 SHLVL=2 WINDOWID=73400326 GDMSESSION=gnome-xorg GNOME_DESKTOP_SESSION_ID=this-is-deprecated LOGNAME=tim DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus XDG_RUNTIME_DIR=/run/user/1000 XAUTHORITY=/run/user/1000/gdm/Xauthority PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/tim/go/bin:/home/tim/.cargo/bin:/home/tim/scripts GJS_DEBUG_TOPICS=JS ERROR;JS LOG SESSION_MANAGER=local/p40:@/tmp/.ICE-unix/20785,unix/p40:/tmp/.ICE-unix/20785
+uid=1000(tim) gid=100(users) groups=100(users),10(wheel),14(uucp),56(bumblebee)
+
+Started Code
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36: XDG_MENU_PREFIX=gnome- _=/usr/bin/env LANG=en_US.UTF-8 GDM_LANG=en_US.UTF-8 LESS=-R DISPLAY=:0 OLDPWD=/home/tim EDITOR=vim COLORTERM=truecolor USERNAME=tim MOZ_PLUGIN_PATH=/usr/lib/mozilla/plugins XDG_VTNR=2 ZSH=/home/tim/.oh-my-zsh SSH_AUTH_SOCK=/run/user/1000/keyring/ssh XDG_SESSION_ID=c2 USER=tim PAGER=less LSCOLORS=Gxfxcxdxbxegedabagacad DESKTOP_SESSION=gnome-xorg LC_COLLATE=en_US.UTF-8 GOPATH=/home/tim/go PWD=/home/tim/Rowan/DigitalSystems HOME=/home/tim LC_CTYPE=en_US.UTF-8 BROWSER=/usr/bin/chromium JOURNAL_STREAM=9:41653 XDG_SESSION_TYPE=x11 XDG_SESSION_DESKTOP=gnome-xorg GJS_DEBUG_OUTPUT=stderr SAL_USE_VCLPLUGIN=gtk MAIL=/var/spool/mail/tim WINDOWPATH=2 TERM=xterm-256color SHELL=/usr/bin/zsh VTE_VERSION=4803 XDG_CURRENT_DESKTOP=GNOME XDG_SEAT=seat0 SHLVL=2 WINDOWID=73400326 GDMSESSION=gnome-xorg GNOME_DESKTOP_SESSION_ID=this-is-deprecated LOGNAME=tim DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus XDG_RUNTIME_DIR=/run/user/1000 XAUTHORITY=/run/user/1000/gdm/Xauthority PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/tim/go/bin:/home/tim/.cargo/bin:/home/tim/scripts GJS_DEBUG_TOPICS=JS ERROR;JS LOG SESSION_MANAGER=local/p40:@/tmp/.ICE-unix/20785,unix/p40:/tmp/.ICE-unix/20785
+uid=1000(tim) gid=100(users) groups=100(users),10(wheel),14(uucp),56(bumblebee)
+/home/tim/Rowan/DigitalSystems/Projects/Lab_1/Lab_1.v
+Started Code
+./altera-editor.sh
+
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/Lab_1/lab_1_testbench.v
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/Lab_1/Lab_1.v
+Started Code
+./altera-editor.sh
+
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+>> /home/tim/Rowan/DigitalSystems/edit-log.txt
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+>> /home/tim/Rowan/DigitalSystems/edit-log.txt
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+>> /home/tim/Rowan/DigitalSystems/edit-log.txt
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+-g/home/tim/Rowan/DigitalSystems/Projects/Lab_4b/Lab_4b.v:0
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+-g/home/tim/Rowan/DigitalSystems/Projects/Lab_4b/Lab_4b.v:0
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+-g /home/tim/Rowan/DigitalSystems/Projects/Lab_4b/Lab_4b.v:0
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+-g /home/tim/Rowan/DigitalSystems/Projects/Lab_4b/Test.v:0
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+-g /home/tim/Rowan/DigitalSystems/Projects/Lab_4b/seven_seg.v:0
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+-g /home/tim/Rowan/DigitalSystems/Projects/Lab_4b/Lab_4b.v:0
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+-g /home/tim/Rowan/DigitalSystems/Projects/Lab_4b/Test.v:0
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+-g /home/tim/Rowan/DigitalSystems/Projects/Lab_4b/seven_seg.v:0
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+-g /home/tim/Rowan/DigitalSystems/Projects/Lab_4b/Lab_4b.v:0
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/Lab_4b/Lab_4b.v 0
+Lab_4b.v /home/tim/Rowan/DigitalSystems/Projects/Lab_4b/Lab_4b.v 0
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/Lab_4b/Lab_4b.v 0
+/home/tim/Rowan/DigitalSystems/Projects/Lab_4b /home/tim/Rowan/DigitalSystems/Projects/Lab_4b/Lab_4b.v 0
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/Lab_4b/Lab_4b.v 0
+/home/tim/Rowan/DigitalSystems/Projects/Lab_4b /home/tim/Rowan/DigitalSystems/Projects/Lab_4b/Lab_4b.v 0
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/Lab_4b/Test.v 0
+/home/tim/Rowan/DigitalSystems/Projects/Lab_4b /home/tim/Rowan/DigitalSystems/Projects/Lab_4b/Test.v 0
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/Lab_4b/Test.v 0
+/home/tim/Rowan/DigitalSystems/Projects/Lab_4b /home/tim/Rowan/DigitalSystems/Projects/Lab_4b/Test.v 0
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/Lab_4b/Lab_4b.v 193
+/home/tim/Rowan/DigitalSystems/Projects/Lab_4b /home/tim/Rowan/DigitalSystems/Projects/Lab_4b/Lab_4b.v 193
+Started Code

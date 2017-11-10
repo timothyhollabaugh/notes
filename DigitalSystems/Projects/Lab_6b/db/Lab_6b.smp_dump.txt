@@ -1,0 +1,9 @@
+
+State Machine - |Lab_6b|TrafficLight:u3|state
+Name state.RY state.RG state.R2 state.YR state.GR state.R1 
+state.R1 0 0 0 0 0 0 
+state.GR 0 0 0 0 1 1 
+state.YR 0 0 0 1 0 1 
+state.R2 0 0 1 0 0 1 
+state.RG 0 1 0 0 0 1 
+state.RY 1 0 0 0 0 1 

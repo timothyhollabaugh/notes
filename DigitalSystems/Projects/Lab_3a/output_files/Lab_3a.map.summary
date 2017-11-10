@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun Oct  1 19:31:22 2017
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+Revision Name : Lab_3a
+Top-level Entity Name : bcd_seven_seg
+Family : Cyclone III
+Total logic elements : 17
+    Total combinational functions : 17
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 31
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

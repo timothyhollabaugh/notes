@@ -1,0 +1,214 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/tim/Rowan/DigitalSystems/Projects/Lab_4b/simulation/modelsim
+vAdder_6Bit
+I:@[E1Tc3zh:kV1Y6^DPNf3
+VKjhbHl]3W]G8@Bh5EB0_J1
+Z1 d/home/tim/Rowan/DigitalSystems/Projects/Lab_4b/simulation/modelsim
+Z2 w1508248757
+Z3 8/home/tim/Rowan/DigitalSystems/Projects/Lab_4b/Lab_4b.v
+Z4 F/home/tim/Rowan/DigitalSystems/Projects/Lab_4b/Lab_4b.v
+L0 133
+Z5 OV;L;10.1d;51
+r1
+31
+Z6 !s108 1508253136.449527
+Z7 !s107 /home/tim/Rowan/DigitalSystems/Projects/Lab_4b/Lab_4b.v|
+Z8 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/tim/Rowan/DigitalSystems/Projects/Lab_4b|/home/tim/Rowan/DigitalSystems/Projects/Lab_4b/Lab_4b.v|
+Z9 o-vlog01compat -work work -O0
+Z10 !s92 -vlog01compat -work work +incdir+/home/tim/Rowan/DigitalSystems/Projects/Lab_4b -O0
+n@adder_6@bit
+!i10b 1
+!s100 `Z?KbM8]Pl4>cc<4RnhOf0
+!s85 0
+!s101 -O0
+vAddOne
+IJ8P^aCkVmMTlM3WC8SG_l1
+Vc]2]CF]=NO397XN2Q4X]K1
+R1
+R2
+R3
+R4
+L0 2
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+n@add@one
+!i10b 1
+!s100 UdFE98d3Sk2b?zKd_JG551
+!s85 0
+!s101 -O0
+vComplement
+Ick47g;0ZzPP1VA5=]1VAa1
+V^ZBoO:3Y7ai4ND<@b1AoU1
+R1
+R2
+R3
+R4
+L0 26
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+n@complement
+!i10b 1
+!s100 ]I?Yn[daFMSS_fbIUllS]2
+!s85 0
+!s101 -O0
+vFullAdder
+IG@hKPb]7F>>E:Fgf??@Tc2
+Ve]B0nb_QI4;@ZfhW00@>>2
+R1
+R2
+R3
+R4
+L0 119
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+n@full@adder
+!i10b 1
+!s100 m8z_B;l@QfBf4MeRk5a<91
+!s85 0
+!s101 -O0
+vLab_4b
+I3QffL`AHEb1=hb9@[Ho1D3
+Vg`0V6KCAADb=z>cEe_zmd2
+R1
+R2
+R3
+R4
+L0 193
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+n@lab_4b
+!i10b 1
+!s100 B`ZWg]7dJcBEeWganm8_l1
+!s85 0
+!s101 -O0
+vMultiplexer
+I8nHmJEQc:]iNTb>2R<n5?2
+V<GXf][eENk8:j:5G?EP3J3
+R1
+R2
+R3
+R4
+L0 78
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+n@multiplexer
+!i10b 1
+!s100 ?J6;GCDfi65MT>mY@=o:^1
+!s85 0
+!s101 -O0
+vNotHalfAdder
+I?RP1LLjUR>lafIKCXO>_C2
+VU0B:FlJTliKGoA0NUmaf=2
+R1
+R2
+R3
+R4
+L0 13
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+n@not@half@adder
+!i10b 1
+!s100 l8IFL3YY^Ef<=ALAVS0Uj3
+!s85 0
+!s101 -O0
+vSelectiveComplement
+IgSQ=Oc<aMVF1JeGcO>=150
+V[aMmR@c;anQMBgQ=NYiPO2
+R1
+R2
+R3
+R4
+L0 95
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+n@selective@complement
+!i10b 1
+!s100 i07ON1=4TLm?;MBY?9d7N1
+!s85 0
+!s101 -O0
+vseven_seg
+Ie40k6=1]MGJ`2;H47LF_?0
+VBk6<T=^49FH1;DjhT]XCE0
+R1
+w1507143936
+8/home/tim/Rowan/DigitalSystems/Projects/Lab_4b/seven_seg.v
+F/home/tim/Rowan/DigitalSystems/Projects/Lab_4b/seven_seg.v
+L0 2
+R5
+r1
+31
+R9
+R10
+!i10b 1
+!s100 FKKDMbdUe0=e5nSO0FM9l1
+!s85 0
+!s108 1508253136.398739
+!s107 /home/tim/Rowan/DigitalSystems/Projects/Lab_4b/seven_seg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/tim/Rowan/DigitalSystems/Projects/Lab_4b|/home/tim/Rowan/DigitalSystems/Projects/Lab_4b/seven_seg.v|
+!s101 -O0
+vTest
+!i10b 1
+!s100 RlgdX;Mg_Q_S3k>HocFC^2
+IT39Y=kh]chkJ6>1<j_cf@0
+VU7RCK<DV^KITSa1^IXRKH1
+R1
+w1508253122
+8/home/tim/Rowan/DigitalSystems/Projects/Lab_4b/Test.v
+F/home/tim/Rowan/DigitalSystems/Projects/Lab_4b/Test.v
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1508253136.539075
+!s107 /home/tim/Rowan/DigitalSystems/Projects/Lab_4b/Test.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/tim/Rowan/DigitalSystems/Projects/Lab_4b|/home/tim/Rowan/DigitalSystems/Projects/Lab_4b/Test.v|
+!s101 -O0
+R9
+R10
+n@test

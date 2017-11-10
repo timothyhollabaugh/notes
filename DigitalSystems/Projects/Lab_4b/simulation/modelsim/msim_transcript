@@ -1,0 +1,60 @@
+# do Lab_4b_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# ERROR: ld.so: object '/home/tim/Rowan/DigitalSystems/freetype/freetype-2.4.12/objs/.libs/libfreetype.so.6.10.1' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+# vlib rtl_work
+# vmap work rtl_work
+# Copying /home/tim/Rowan/DigitalSystems/Altera/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied /home/tim/Rowan/DigitalSystems/Altera/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+/home/tim/Rowan/DigitalSystems/Projects/Lab_4b {/home/tim/Rowan/DigitalSystems/Projects/Lab_4b/seven_seg.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module seven_seg
+# 
+# Top level modules:
+# 	seven_seg
+# ERROR: ld.so: object '/home/tim/Rowan/DigitalSystems/freetype/freetype-2.4.12/objs/.libs/libfreetype.so.6.10.1' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+# vlog -vlog01compat -work work +incdir+/home/tim/Rowan/DigitalSystems/Projects/Lab_4b {/home/tim/Rowan/DigitalSystems/Projects/Lab_4b/Lab_4b.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module AddOne
+# -- Compiling module NotHalfAdder
+# -- Compiling module Complement
+# -- Compiling module Multiplexer
+# -- Compiling module SelectiveComplement
+# -- Compiling module FullAdder
+# -- Compiling module Adder_6Bit
+# -- Compiling module Lab_4b
+# 
+# Top level modules:
+# 	Lab_4b
+# ERROR: ld.so: object '/home/tim/Rowan/DigitalSystems/freetype/freetype-2.4.12/objs/.libs/libfreetype.so.6.10.1' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+# 
+# vlog -vlog01compat -work work +incdir+/home/tim/Rowan/DigitalSystems/Projects/Lab_4b {/home/tim/Rowan/DigitalSystems/Projects/Lab_4b/Test.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Test
+# 
+# Top level modules:
+# 	Test
+# ERROR: ld.so: object '/home/tim/Rowan/DigitalSystems/freetype/freetype-2.4.12/objs/.libs/libfreetype.so.6.10.1' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs="+acc"  Test
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps Test 
+# Loading work.Test
+# Loading work.SelectiveComplement
+# Loading work.Complement
+# Loading work.AddOne
+# Loading work.NotHalfAdder
+# Loading work.Multiplexer
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break in Module Test at /home/tim/Rowan/DigitalSystems/Projects/Lab_4b/Test.v line 29
+# Simulation Breakpoint: Break in Module Test at /home/tim/Rowan/DigitalSystems/Projects/Lab_4b/Test.v line 29
+# MACRO ./Lab_4b_run_msim_rtl_verilog.do PAUSED at line 18
