@@ -1,11 +1,10 @@
-DigitalSystems/Altera/
-DigitalSystems/AlteraInstaller/
-DigitalSystems/freetype/
-DigitalSystems/Quartus-web-13.0.1.232-linux.tar
-
+DigitalSystems/
 ResourceCenter/
-
 IEEE/
-
 RAS/
+
+Classes/ComputerArchitecture/CA-2-scrumpelstiltskin/
+Classes/ComputerArchitecture/Comp_Arch_Processor/
+Classes/ComputerArchitecture/legv8_asm/
+Classes/FECII/FECMatlabWater/
 

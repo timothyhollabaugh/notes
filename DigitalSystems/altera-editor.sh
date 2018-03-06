@@ -17,6 +17,7 @@ folder=`dirname $file`
 
 echo $folder $file $line >> /home/tim/Rowan/DigitalSystems/editor_args.txt
 
-/opt/visual-studio-code/bin/code $folder -g $file:$line>> /home/tim/Rowan/DigitalSystems/editor_args.txt
+#/opt/visual-studio-code/bin/code $folder -g $file:$line>> /home/tim/Rowan/DigitalSystems/editor_args.txt
+/usr/bin/alacritty -t nvim -e /usr/bin/nvim $file +$line >> /home/tim/Rowan/DigitalSystems/editor_args.txt
 
 echo "Started Code" >> /home/tim/Rowan/DigitalSystems/editor_args.txt

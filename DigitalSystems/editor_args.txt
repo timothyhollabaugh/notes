@@ -295,3 +295,289 @@ Started Code
 /home/tim/Rowan/DigitalSystems/Projects/Lab_4b/Lab_4b.v 193
 /home/tim/Rowan/DigitalSystems/Projects/Lab_4b /home/tim/Rowan/DigitalSystems/Projects/Lab_4b/Lab_4b.v 193
 Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/Lab_6b/Lab_6b.v 1
+/home/tim/Rowan/DigitalSystems/Projects/Lab_6b /home/tim/Rowan/DigitalSystems/Projects/Lab_6b/Lab_6b.v 1
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+Verilog1.v 0
+. Verilog1.v 0
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+Verilog2.v 0
+. Verilog2.v 0
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/Lab_6b/TimerTestBench.v 0
+/home/tim/Rowan/DigitalSystems/Projects/Lab_6b /home/tim/Rowan/DigitalSystems/Projects/Lab_6b/TimerTestBench.v 0
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/Lab_6b/Lab_6b.v 0
+/home/tim/Rowan/DigitalSystems/Projects/Lab_6b /home/tim/Rowan/DigitalSystems/Projects/Lab_6b/Lab_6b.v 0
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/Lab_6b/Lab_6b_testbench.v 3
+/home/tim/Rowan/DigitalSystems/Projects/Lab_6b /home/tim/Rowan/DigitalSystems/Projects/Lab_6b/Lab_6b_testbench.v 3
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+Verilog1.v 0
+. Verilog1.v 0
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+Verilog2.v 0
+. Verilog2.v 0
+[Unhandled CSI] action='t', args=[8, 24, 80], intermediates=[]
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/VGA_Test/VGA_Test.v 0
+/home/tim/Rowan/DigitalSystems/Projects/VGA_Test /home/tim/Rowan/DigitalSystems/Projects/VGA_Test/VGA_Test.v 0
+[Unhandled CSI] action='t', args=[8, 47, 127], intermediates=[]
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/VGA_Test/Toplevel.v 1
+/home/tim/Rowan/DigitalSystems/Projects/VGA_Test /home/tim/Rowan/DigitalSystems/Projects/VGA_Test/Toplevel.v 1
+[Unhandled CSI] action='t', args=[8, 24, 80], intermediates=[]
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/VGA_Test/VGA_Test.v 0
+/home/tim/Rowan/DigitalSystems/Projects/VGA_Test /home/tim/Rowan/DigitalSystems/Projects/VGA_Test/VGA_Test.v 0
+[Unhandled CSI] action='t', args=[8, 24, 80], intermediates=[]
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+Verilog1.v 0
+. Verilog1.v 0
+[Unhandled CSI] action='t', args=[8, 24, 80], intermediates=[]
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/Lab_7a/ClockDivider.v 16
+/home/tim/Rowan/DigitalSystems/Projects/Lab_7a /home/tim/Rowan/DigitalSystems/Projects/Lab_7a/ClockDivider.v 16
+[Unhandled CSI] action='t', args=[8, 24, 80], intermediates=[]
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/Lab_7a/Stopwatch.v 0
+/home/tim/Rowan/DigitalSystems/Projects/Lab_7a /home/tim/Rowan/DigitalSystems/Projects/Lab_7a/Stopwatch.v 0
+[Unhandled CSI] action='t', args=[8, 24, 80], intermediates=[]
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/Lab_7a/Stopwatch.v 0
+/home/tim/Rowan/DigitalSystems/Projects/Lab_7a /home/tim/Rowan/DigitalSystems/Projects/Lab_7a/Stopwatch.v 0
+[Unhandled CSI] action='t', args=[8, 24, 80], intermediates=[]
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/VGA_Test/VGA_Test.v 0
+/home/tim/Rowan/DigitalSystems/Projects/VGA_Test /home/tim/Rowan/DigitalSystems/Projects/VGA_Test/VGA_Test.v 0
+[Unhandled CSI] action='t', args=[8, 47, 127], intermediates=[]
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/VGA_Test/VGA_Test.v 0
+/home/tim/Rowan/DigitalSystems/Projects/VGA_Test /home/tim/Rowan/DigitalSystems/Projects/VGA_Test/VGA_Test.v 0
+[Unhandled CSI] action='t', args=[8, 24, 80], intermediates=[]
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/VGA_Test/Toplevel.v 5
+/home/tim/Rowan/DigitalSystems/Projects/VGA_Test /home/tim/Rowan/DigitalSystems/Projects/VGA_Test/Toplevel.v 5
+[Unhandled CSI] action='t', args=[8, 24, 80], intermediates=[]
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/VGA_Test/VGA_Test.v 0
+/home/tim/Rowan/DigitalSystems/Projects/VGA_Test /home/tim/Rowan/DigitalSystems/Projects/VGA_Test/VGA_Test.v 0
+[Unhandled CSI] action='t', args=[8, 24, 80], intermediates=[]
+Started Code
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/VGA_Test/Toplevel.v 0
+/home/tim/Rowan/DigitalSystems/Projects/VGA_Test /home/tim/Rowan/DigitalSystems/Projects/VGA_Test/Toplevel.v 0
+[Unhandled CSI] action='t', args=[8, 24, 80], intermediates=[]
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/DE0_CD-ROM_v.1.1/Demonstrations/DE0_VGA/DE0_VGA.v 0
+/home/tim/Rowan/DigitalSystems/DE0_CD-ROM_v.1.1/Demonstrations/DE0_VGA /home/tim/Rowan/DigitalSystems/DE0_CD-ROM_v.1.1/Demonstrations/DE0_VGA/DE0_VGA.v 0
+[Unhandled CSI] action='t', args=[8, 24, 80], intermediates=[]
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/DE0_CD-ROM_v.1.1/Demonstrations/DE0_VGA/V/VGA_CLK.v 0
+/home/tim/Rowan/DigitalSystems/DE0_CD-ROM_v.1.1/Demonstrations/DE0_VGA/V /home/tim/Rowan/DigitalSystems/DE0_CD-ROM_v.1.1/Demonstrations/DE0_VGA/V/VGA_CLK.v 0
+[Unhandled CSI] action='t', args=[8, 24, 80], intermediates=[]
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/DE0_CD-ROM_v.1.1/Demonstrations/DE0_VGA/V/VGA_Ctrl.v 0
+/home/tim/Rowan/DigitalSystems/DE0_CD-ROM_v.1.1/Demonstrations/DE0_VGA/V /home/tim/Rowan/DigitalSystems/DE0_CD-ROM_v.1.1/Demonstrations/DE0_VGA/V/VGA_Ctrl.v 0
+[Unhandled CSI] action='t', args=[8, 24, 80], intermediates=[]
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/DE0_CD-ROM_v.1.1/Demonstrations/DE0_VGA/DE0_VGA.v 0
+/home/tim/Rowan/DigitalSystems/DE0_CD-ROM_v.1.1/Demonstrations/DE0_VGA /home/tim/Rowan/DigitalSystems/DE0_CD-ROM_v.1.1/Demonstrations/DE0_VGA/DE0_VGA.v 0
+[Unhandled CSI] action='t', args=[8, 24, 80], intermediates=[]
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/DE0_CD-ROM_v.1.1/Demonstrations/DE0_VGA/V/VGA_Ctrl.v 0
+/home/tim/Rowan/DigitalSystems/DE0_CD-ROM_v.1.1/Demonstrations/DE0_VGA/V /home/tim/Rowan/DigitalSystems/DE0_CD-ROM_v.1.1/Demonstrations/DE0_VGA/V/VGA_Ctrl.v 0
+[Unhandled CSI] action='t', args=[8, 24, 80], intermediates=[]
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/VGA_Test/VGA_Test.v 114
+/home/tim/Rowan/DigitalSystems/Projects/VGA_Test /home/tim/Rowan/DigitalSystems/Projects/VGA_Test/VGA_Test.v 114
+[Unhandled CSI] action='t', args=[8, 24, 80], intermediates=[]
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/VGA_Test/VGA_Test.v 114
+/home/tim/Rowan/DigitalSystems/Projects/VGA_Test /home/tim/Rowan/DigitalSystems/Projects/VGA_Test/VGA_Test.v 114
+[Unhandled CSI] action='t', args=[8, 24, 80], intermediates=[]
+Started Code
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/VGA_Test/Toplevel.v 73
+/home/tim/Rowan/DigitalSystems/Projects/VGA_Test /home/tim/Rowan/DigitalSystems/Projects/VGA_Test/Toplevel.v 73
+[Unhandled CSI] action='t', args=[8, 24, 80], intermediates=[]
+Started Code
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/VGA_Test/VGA_Test.v 0
+/home/tim/Rowan/DigitalSystems/Projects/VGA_Test /home/tim/Rowan/DigitalSystems/Projects/VGA_Test/VGA_Test.v 0
+[Unhandled CSI] action='t', args=[8, 24, 80], intermediates=[]
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/Lab_6b/TimerTestBench.v 0
+/home/tim/Rowan/DigitalSystems/Projects/Lab_6b /home/tim/Rowan/DigitalSystems/Projects/Lab_6b/TimerTestBench.v 0
+[Unhandled CSI] action='t', args=[8, 24, 80], intermediates=[]
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/Lab_6b/Timer.v 0
+/home/tim/Rowan/DigitalSystems/Projects/Lab_6b /home/tim/Rowan/DigitalSystems/Projects/Lab_6b/Timer.v 0
+[Unhandled CSI] action='t', args=[8, 24, 80], intermediates=[]
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/Lab_6b/TrafficLight.v 0
+/home/tim/Rowan/DigitalSystems/Projects/Lab_6b /home/tim/Rowan/DigitalSystems/Projects/Lab_6b/TrafficLight.v 0
+[Unhandled CSI] action='t', args=[8, 24, 80], intermediates=[]
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/Lab_6b/Lab_6b.v 0
+/home/tim/Rowan/DigitalSystems/Projects/Lab_6b /home/tim/Rowan/DigitalSystems/Projects/Lab_6b/Lab_6b.v 0
+[Unhandled CSI] action='t', args=[8, 24, 80], intermediates=[]
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/Lab_7b/Statemachine.v 0
+/home/tim/Rowan/DigitalSystems/Projects/Lab_7b /home/tim/Rowan/DigitalSystems/Projects/Lab_7b/Statemachine.v 0
+[Unhandled CSI] action='t', args=[8, 24, 80], intermediates=[]
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/Lab_7b/Statemachine.v 0
+/home/tim/Rowan/DigitalSystems/Projects/Lab_7b /home/tim/Rowan/DigitalSystems/Projects/Lab_7b/Statemachine.v 0
+[Unhandled CSI] action='t', args=[8, 24, 80], intermediates=[]
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/Lab_7b/Stopwatch.v 51
+/home/tim/Rowan/DigitalSystems/Projects/Lab_7b /home/tim/Rowan/DigitalSystems/Projects/Lab_7b/Stopwatch.v 51
+[Unhandled CSI] action='t', args=[8, 24, 80], intermediates=[]
+Started Code
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/Lab_7b/Statemachine.v 0
+/home/tim/Rowan/DigitalSystems/Projects/Lab_7b /home/tim/Rowan/DigitalSystems/Projects/Lab_7b/Statemachine.v 0
+[Unhandled CSI] action='t', args=[8, 24, 80], intermediates=[]
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/Lab_7b/Dataflow.v 0
+/home/tim/Rowan/DigitalSystems/Projects/Lab_7b /home/tim/Rowan/DigitalSystems/Projects/Lab_7b/Dataflow.v 0
+[Unhandled CSI] action='t', args=[8, 24, 80], intermediates=[]
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/Lab_7b/Dataflow.v 0
+/home/tim/Rowan/DigitalSystems/Projects/Lab_7b /home/tim/Rowan/DigitalSystems/Projects/Lab_7b/Dataflow.v 0
+[Unhandled CSI] action='t', args=[8, 24, 80], intermediates=[]
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/Lab_7b/Dataflow.v 48
+/home/tim/Rowan/DigitalSystems/Projects/Lab_7b /home/tim/Rowan/DigitalSystems/Projects/Lab_7b/Dataflow.v 48
+[Unhandled CSI] action='t', args=[8, 24, 80], intermediates=[]
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/VGA_Test/VGA_Test.v 0
+/home/tim/Rowan/DigitalSystems/Projects/VGA_Test /home/tim/Rowan/DigitalSystems/Projects/VGA_Test/VGA_Test.v 0
+[Unhandled CSI] action='t', args=[8, 24, 80], intermediates=[]
+Started Code
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/Lab_7a/ClockDivider.v 0
+/home/tim/Rowan/DigitalSystems/Projects/Lab_7a /home/tim/Rowan/DigitalSystems/Projects/Lab_7a/ClockDivider.v 0
+[Unhandled CSI] action='t', args=[8, 24, 80], intermediates=[]
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/DE0FlippyBit/VGA/VGA.v 0
+/home/tim/Rowan/DigitalSystems/Projects/DE0FlippyBit/VGA /home/tim/Rowan/DigitalSystems/Projects/DE0FlippyBit/VGA/VGA.v 0
+[Unhandled CSI] action='t', args=[8, 24, 80], intermediates=[]
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/DE0FlippyBit/DE0FlippyBit.v 18
+/home/tim/Rowan/DigitalSystems/Projects/DE0FlippyBit /home/tim/Rowan/DigitalSystems/Projects/DE0FlippyBit/DE0FlippyBit.v 18
+[Unhandled CSI] action='t', args=[8, 24, 80], intermediates=[]
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/DE0FlippyBit/Game_Logic/Game_Logic.v 4
+/home/tim/Rowan/DigitalSystems/Projects/DE0FlippyBit/Game_Logic /home/tim/Rowan/DigitalSystems/Projects/DE0FlippyBit/Game_Logic/Game_Logic.v 4
+[Unhandled CSI] action='t', args=[8, 24, 80], intermediates=[]
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/DE0FlippyBit/Display/Display.v 73
+/home/tim/Rowan/DigitalSystems/Projects/DE0FlippyBit/Display /home/tim/Rowan/DigitalSystems/Projects/DE0FlippyBit/Display/Display.v 73
+[Unhandled CSI] action='t', args=[8, 24, 80], intermediates=[]
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/DE0FlippyBit/Game_Logic/Column_State_Machine.v 25
+/home/tim/Rowan/DigitalSystems/Projects/DE0FlippyBit/Game_Logic /home/tim/Rowan/DigitalSystems/Projects/DE0FlippyBit/Game_Logic/Column_State_Machine.v 25
+[Unhandled CSI] action='t', args=[8, 24, 80], intermediates=[]
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/DE0FlippyBit/Column/Column_Test.v 0
+/home/tim/Rowan/DigitalSystems/Projects/DE0FlippyBit/Column /home/tim/Rowan/DigitalSystems/Projects/DE0FlippyBit/Column/Column_Test.v 0
+[Unhandled CSI] action='t', args=[8, 24, 80], intermediates=[]
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/DE0FlippyBit/Column/Column.v 46
+/home/tim/Rowan/DigitalSystems/Projects/DE0FlippyBit/Column /home/tim/Rowan/DigitalSystems/Projects/DE0FlippyBit/Column/Column.v 46
+[Unhandled CSI] action='t', args=[8, 24, 80], intermediates=[]
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/DE0FlippyBit/Column/Column.v 25
+/home/tim/Rowan/DigitalSystems/Projects/DE0FlippyBit/Column /home/tim/Rowan/DigitalSystems/Projects/DE0FlippyBit/Column/Column.v 25
+[Unhandled CSI] action='t', args=[8, 24, 80], intermediates=[]
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/DE0FlippyBit/Game_Logic/Big_State_Machine.v 46
+/home/tim/Rowan/DigitalSystems/Projects/DE0FlippyBit/Game_Logic /home/tim/Rowan/DigitalSystems/Projects/DE0FlippyBit/Game_Logic/Big_State_Machine.v 46
+[Unhandled CSI] action='t', args=[8, 24, 80], intermediates=[]
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/DE0FlippyBit/Game_Logic/Big_State_Machine.v 46
+/home/tim/Rowan/DigitalSystems/Projects/DE0FlippyBit/Game_Logic /home/tim/Rowan/DigitalSystems/Projects/DE0FlippyBit/Game_Logic/Big_State_Machine.v 46
+[Unhandled CSI] action='t', args=[8, 24, 80], intermediates=[]
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/DE0FlippyBit/Game_Logic/Big_State_Machine.v 46
+/home/tim/Rowan/DigitalSystems/Projects/DE0FlippyBit/Game_Logic /home/tim/Rowan/DigitalSystems/Projects/DE0FlippyBit/Game_Logic/Big_State_Machine.v 46
+[Unhandled CSI] action='t', args=[8, 47, 127], intermediates=[]
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/DE0FlippyBit/Game_Logic/Big_State_Machine.v 46
+/home/tim/Rowan/DigitalSystems/Projects/DE0FlippyBit/Game_Logic /home/tim/Rowan/DigitalSystems/Projects/DE0FlippyBit/Game_Logic/Big_State_Machine.v 46
+[Unhandled CSI] action='t', args=[8, 24, 80], intermediates=[]
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/DE0FlippyBit/Column/Column.v 1
+/home/tim/Rowan/DigitalSystems/Projects/DE0FlippyBit/Column /home/tim/Rowan/DigitalSystems/Projects/DE0FlippyBit/Column/Column.v 1
+[Unhandled CSI] action='t', args=[8, 24, 80], intermediates=[]
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/DigitalSystems/Projects/DE0FlippyBit/Top_Level_Entity/Flippin_Bits_Man_Project.v 0
+/home/tim/Rowan/DigitalSystems/Projects/DE0FlippyBit/Top_Level_Entity /home/tim/Rowan/DigitalSystems/Projects/DE0FlippyBit/Top_Level_Entity/Flippin_Bits_Man_Project.v 0
+[Unhandled CSI] action='t', args=[8, 24, 80], intermediates=[]
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/Classes/ComputerArchitecture/Comp_Arch_Processor/carry_lookahead_adder/adder_test.v 2
+/home/tim/Rowan/Classes/ComputerArchitecture/Comp_Arch_Processor/carry_lookahead_adder /home/tim/Rowan/Classes/ComputerArchitecture/Comp_Arch_Processor/carry_lookahead_adder/adder_test.v 2
+[Unhandled CSI] action='t', args=[8, 24, 80], intermediates=[]
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/Classes/ComputerArchitecture/Comp_Arch_Processor/carry_lookahead_adder/carry_lookahead_adder_64bit.v 51
+/home/tim/Rowan/Classes/ComputerArchitecture/Comp_Arch_Processor/carry_lookahead_adder /home/tim/Rowan/Classes/ComputerArchitecture/Comp_Arch_Processor/carry_lookahead_adder/carry_lookahead_adder_64bit.v 51
+[Unhandled CSI] action='t', args=[8, 24, 80], intermediates=[]
+Started Code
+/home/tim/Rowan/DigitalSystems/altera-editor.sh
+/home/tim/Rowan/Classes/ComputerArchitecture/Comp_Arch_Processor/src/registerfile/registerfile.v 16
+/home/tim/Rowan/Classes/ComputerArchitecture/Comp_Arch_Processor/src/registerfile /home/tim/Rowan/Classes/ComputerArchitecture/Comp_Arch_Processor/src/registerfile/registerfile.v 16
+[Unhandled CSI] action='t', args=[8, 24, 80], intermediates=[]
+Started Code
