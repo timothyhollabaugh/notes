@@ -1,0 +1,360 @@
+# do final_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying /home/tim/Rowan/DigitalSystems/Altera/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied /home/tim/Rowan/DigitalSystems/Altera/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+/home/tim/Rowan/Classes/ComputerArchitecture/final/src {/home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module instruction_decoder
+# -- Compiling module single_cycle_CPU
+# -- Compiling module instruction_memory
+# -- Compiling module register_file8x8
+# -- Compiling module mux_2_to_1
+# -- Compiling module function_unit
+# -- Compiling module branch_control
+# -- Compiling module program_counter
+# -- Compiling module sign_extend_branch
+# -- Compiling module zero_fill_contstant
+# -- Compiling module data_memory
+# 
+# Top level modules:
+# 	single_cycle_CPU
+# ERROR: ld.so: object '/home/tim/Rowan/DigitalSystems/freetype/freetype-2.4.12/objs/.libs/libfreetype.so.6.10.1' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+# 
+# vlog -vlog01compat -work work +incdir+/home/tim/Rowan/Classes/ComputerArchitecture/final/src {/home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module single_cycle_CPU_tb
+# 
+# Top level modules:
+# 	single_cycle_CPU_tb
+# ERROR: ld.so: object '/home/tim/Rowan/DigitalSystems/freetype/freetype-2.4.12/objs/.libs/libfreetype.so.6.10.1' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs="+acc"  single_cycle_CPU_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps single_cycle_CPU_tb 
+# Loading work.single_cycle_CPU_tb
+# Loading work.single_cycle_CPU
+# Loading work.instruction_memory
+# Loading work.instruction_decoder
+# Loading work.program_counter
+# Loading work.branch_control
+# Loading work.sign_extend_branch
+# Loading work.zero_fill_contstant
+# Loading work.register_file8x8
+# Loading work.mux_2_to_1
+# Loading work.function_unit
+# Loading work.data_memory
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(126): [PCDPC] - Port size (8 or 8) does not match connection size (4) for port 'DA'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(28).
+#         Region: /single_cycle_CPU_tb/dut/decoder
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(126): [PCDPC] - Port size (8 or 8) does not match connection size (4) for port 'AA'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(28).
+#         Region: /single_cycle_CPU_tb/dut/decoder
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(126): [PCDPC] - Port size (8 or 8) does not match connection size (4) for port 'BA'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(28).
+#         Region: /single_cycle_CPU_tb/dut/decoder
+# ** Warning: (vsim-3017) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(134): [TFMPC] - Too few port connections. Expected 6, found 5.
+#         Region: /single_cycle_CPU_tb/dut/pc
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(134): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'JumpInput'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(331).
+#         Region: /single_cycle_CPU_tb/dut/pc
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(134): [PCDPC] - Port size (8 or 8) does not match connection size (4) for port 'BranchInput'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(331).
+#         Region: /single_cycle_CPU_tb/dut/pc
+# ** Warning: (vsim-3722) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(134): [TFMPC] - Missing connection for port 'PC'.
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(151): [PCDPC] - Port size (8 or 8) does not match connection size (4) for port 'BranchOffset'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(347).
+#         Region: /single_cycle_CPU_tb/dut/extend
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(172): [PCDPC] - Port size (3 or 3) does not match connection size (4) for port 'DA'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(244).
+#         Region: /single_cycle_CPU_tb/dut/reg_file0
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(172): [PCDPC] - Port size (3 or 3) does not match connection size (4) for port 'AA'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(244).
+#         Region: /single_cycle_CPU_tb/dut/reg_file0
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(172): [PCDPC] - Port size (3 or 3) does not match connection size (4) for port 'BA'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(244).
+#         Region: /single_cycle_CPU_tb/dut/reg_file0
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(192): [PCDPC] - Port size (4 or 4) does not match connection size (1) for port 'FS'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(285).
+#         Region: /single_cycle_CPU_tb/dut/alu
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break in Module single_cycle_CPU_tb at /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU_tb.v line 32
+# Simulation Breakpoint: Break in Module single_cycle_CPU_tb at /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU_tb.v line 32
+# MACRO ./final_run_msim_rtl_verilog.do PAUSED at line 17
+restart
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(126): [PCDPC] - Port size (8 or 8) does not match connection size (4) for port 'DA'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(28).
+#         Region: /single_cycle_CPU_tb/dut/decoder
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(126): [PCDPC] - Port size (8 or 8) does not match connection size (4) for port 'AA'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(28).
+#         Region: /single_cycle_CPU_tb/dut/decoder
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(126): [PCDPC] - Port size (8 or 8) does not match connection size (4) for port 'BA'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(28).
+#         Region: /single_cycle_CPU_tb/dut/decoder
+# ** Warning: (vsim-3017) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(134): [TFMPC] - Too few port connections. Expected 6, found 5.
+#         Region: /single_cycle_CPU_tb/dut/pc
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(134): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'JumpInput'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(331).
+#         Region: /single_cycle_CPU_tb/dut/pc
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(134): [PCDPC] - Port size (8 or 8) does not match connection size (4) for port 'BranchInput'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(331).
+#         Region: /single_cycle_CPU_tb/dut/pc
+# ** Warning: (vsim-3722) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(134): [TFMPC] - Missing connection for port 'PC'.
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(151): [PCDPC] - Port size (8 or 8) does not match connection size (4) for port 'BranchOffset'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(347).
+#         Region: /single_cycle_CPU_tb/dut/extend
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(172): [PCDPC] - Port size (3 or 3) does not match connection size (4) for port 'DA'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(244).
+#         Region: /single_cycle_CPU_tb/dut/reg_file0
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(172): [PCDPC] - Port size (3 or 3) does not match connection size (4) for port 'AA'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(244).
+#         Region: /single_cycle_CPU_tb/dut/reg_file0
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(172): [PCDPC] - Port size (3 or 3) does not match connection size (4) for port 'BA'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(244).
+#         Region: /single_cycle_CPU_tb/dut/reg_file0
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(192): [PCDPC] - Port size (4 or 4) does not match connection size (1) for port 'FS'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(285).
+#         Region: /single_cycle_CPU_tb/dut/alu
+run 10
+run 10
+run 10
+run 10
+run 10
+run 10
+run 10
+do final_run_msim_rtl_verilog.do
+# transcript on
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# ERROR: ld.so: object '/home/tim/Rowan/DigitalSystems/freetype/freetype-2.4.12/objs/.libs/libfreetype.so.6.10.1' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+/home/tim/Rowan/Classes/ComputerArchitecture/final/src {/home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module instruction_decoder
+# -- Compiling module single_cycle_CPU
+# -- Compiling module instruction_memory
+# -- Compiling module register_file8x8
+# -- Compiling module mux_2_to_1
+# -- Compiling module function_unit
+# -- Compiling module branch_control
+# -- Compiling module program_counter
+# -- Compiling module sign_extend_branch
+# -- Compiling module zero_fill_contstant
+# -- Compiling module data_memory
+# 
+# Top level modules:
+# 	single_cycle_CPU
+# ERROR: ld.so: object '/home/tim/Rowan/DigitalSystems/freetype/freetype-2.4.12/objs/.libs/libfreetype.so.6.10.1' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+# 
+# vlog -vlog01compat -work work +incdir+/home/tim/Rowan/Classes/ComputerArchitecture/final/src {/home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module single_cycle_CPU_tb
+# 
+# Top level modules:
+# 	single_cycle_CPU_tb
+# ERROR: ld.so: object '/home/tim/Rowan/DigitalSystems/freetype/freetype-2.4.12/objs/.libs/libfreetype.so.6.10.1' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs="+acc"  single_cycle_CPU_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps single_cycle_CPU_tb 
+# Loading work.single_cycle_CPU_tb
+# Loading work.single_cycle_CPU
+# Loading work.instruction_memory
+# Loading work.instruction_decoder
+# Loading work.program_counter
+# Loading work.branch_control
+# Loading work.sign_extend_branch
+# Loading work.zero_fill_contstant
+# Loading work.register_file8x8
+# Loading work.mux_2_to_1
+# Loading work.function_unit
+# Loading work.data_memory
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(126): [PCDPC] - Port size (8 or 8) does not match connection size (4) for port 'DA'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(28).
+#         Region: /single_cycle_CPU_tb/dut/decoder
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(126): [PCDPC] - Port size (8 or 8) does not match connection size (4) for port 'AA'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(28).
+#         Region: /single_cycle_CPU_tb/dut/decoder
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(126): [PCDPC] - Port size (8 or 8) does not match connection size (4) for port 'BA'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(28).
+#         Region: /single_cycle_CPU_tb/dut/decoder
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(135): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'JumpInput'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(332).
+#         Region: /single_cycle_CPU_tb/dut/pc
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(135): [PCDPC] - Port size (8 or 8) does not match connection size (4) for port 'BranchInput'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(332).
+#         Region: /single_cycle_CPU_tb/dut/pc
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(152): [PCDPC] - Port size (8 or 8) does not match connection size (4) for port 'BranchOffset'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(348).
+#         Region: /single_cycle_CPU_tb/dut/extend
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(173): [PCDPC] - Port size (3 or 3) does not match connection size (4) for port 'DA'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(245).
+#         Region: /single_cycle_CPU_tb/dut/reg_file0
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(173): [PCDPC] - Port size (3 or 3) does not match connection size (4) for port 'AA'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(245).
+#         Region: /single_cycle_CPU_tb/dut/reg_file0
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(173): [PCDPC] - Port size (3 or 3) does not match connection size (4) for port 'BA'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(245).
+#         Region: /single_cycle_CPU_tb/dut/reg_file0
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(193): [PCDPC] - Port size (4 or 4) does not match connection size (1) for port 'FS'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(286).
+#         Region: /single_cycle_CPU_tb/dut/alu
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break in Module single_cycle_CPU_tb at /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU_tb.v line 32
+# Simulation Breakpoint: Break in Module single_cycle_CPU_tb at /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU_tb.v line 32
+# MACRO ./final_run_msim_rtl_verilog.do PAUSED at line 17
+restart
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(126): [PCDPC] - Port size (8 or 8) does not match connection size (4) for port 'DA'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(28).
+#         Region: /single_cycle_CPU_tb/dut/decoder
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(126): [PCDPC] - Port size (8 or 8) does not match connection size (4) for port 'AA'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(28).
+#         Region: /single_cycle_CPU_tb/dut/decoder
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(126): [PCDPC] - Port size (8 or 8) does not match connection size (4) for port 'BA'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(28).
+#         Region: /single_cycle_CPU_tb/dut/decoder
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(135): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'JumpInput'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(332).
+#         Region: /single_cycle_CPU_tb/dut/pc
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(135): [PCDPC] - Port size (8 or 8) does not match connection size (4) for port 'BranchInput'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(332).
+#         Region: /single_cycle_CPU_tb/dut/pc
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(152): [PCDPC] - Port size (8 or 8) does not match connection size (4) for port 'BranchOffset'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(348).
+#         Region: /single_cycle_CPU_tb/dut/extend
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(173): [PCDPC] - Port size (3 or 3) does not match connection size (4) for port 'DA'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(245).
+#         Region: /single_cycle_CPU_tb/dut/reg_file0
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(173): [PCDPC] - Port size (3 or 3) does not match connection size (4) for port 'AA'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(245).
+#         Region: /single_cycle_CPU_tb/dut/reg_file0
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(173): [PCDPC] - Port size (3 or 3) does not match connection size (4) for port 'BA'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(245).
+#         Region: /single_cycle_CPU_tb/dut/reg_file0
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(193): [PCDPC] - Port size (4 or 4) does not match connection size (1) for port 'FS'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(286).
+#         Region: /single_cycle_CPU_tb/dut/alu
+run 10
+run 10
+run 10
+run 10
+run 10
+run 10
+run 10
+run 10
+run 10
+run 10
+run 10
+run 10
+run 10
+run 10
+run 10
+run 10
+run 10
+run 10
+run 10
+run 10
+# Break in Module single_cycle_CPU_tb at /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU_tb.v line 32
+
+
+restart
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(126): [PCDPC] - Port size (8 or 8) does not match connection size (4) for port 'DA'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(28).
+#         Region: /single_cycle_CPU_tb/dut/decoder
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(126): [PCDPC] - Port size (8 or 8) does not match connection size (4) for port 'AA'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(28).
+#         Region: /single_cycle_CPU_tb/dut/decoder
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(126): [PCDPC] - Port size (8 or 8) does not match connection size (4) for port 'BA'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(28).
+#         Region: /single_cycle_CPU_tb/dut/decoder
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(135): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'JumpInput'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(332).
+#         Region: /single_cycle_CPU_tb/dut/pc
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(135): [PCDPC] - Port size (8 or 8) does not match connection size (4) for port 'BranchInput'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(332).
+#         Region: /single_cycle_CPU_tb/dut/pc
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(152): [PCDPC] - Port size (8 or 8) does not match connection size (4) for port 'BranchOffset'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(348).
+#         Region: /single_cycle_CPU_tb/dut/extend
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(173): [PCDPC] - Port size (3 or 3) does not match connection size (4) for port 'DA'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(245).
+#         Region: /single_cycle_CPU_tb/dut/reg_file0
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(173): [PCDPC] - Port size (3 or 3) does not match connection size (4) for port 'AA'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(245).
+#         Region: /single_cycle_CPU_tb/dut/reg_file0
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(173): [PCDPC] - Port size (3 or 3) does not match connection size (4) for port 'BA'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(245).
+#         Region: /single_cycle_CPU_tb/dut/reg_file0
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(193): [PCDPC] - Port size (4 or 4) does not match connection size (1) for port 'FS'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(286).
+#         Region: /single_cycle_CPU_tb/dut/alu
+run 10
+run 10
+do final_run_msim_rtl_verilog.do
+# transcript on
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# ERROR: ld.so: object '/home/tim/Rowan/DigitalSystems/freetype/freetype-2.4.12/objs/.libs/libfreetype.so.6.10.1' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+/home/tim/Rowan/Classes/ComputerArchitecture/final/src {/home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module instruction_decoder
+# -- Compiling module single_cycle_CPU
+# -- Compiling module instruction_memory
+# -- Compiling module register_file8x8
+# -- Compiling module mux_2_to_1
+# -- Compiling module function_unit
+# -- Compiling module branch_control
+# -- Compiling module program_counter
+# -- Compiling module sign_extend_branch
+# -- Compiling module zero_fill_contstant
+# -- Compiling module data_memory
+# 
+# Top level modules:
+# 	single_cycle_CPU
+# ERROR: ld.so: object '/home/tim/Rowan/DigitalSystems/freetype/freetype-2.4.12/objs/.libs/libfreetype.so.6.10.1' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+# 
+# vlog -vlog01compat -work work +incdir+/home/tim/Rowan/Classes/ComputerArchitecture/final/src {/home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module single_cycle_CPU_tb
+# 
+# Top level modules:
+# 	single_cycle_CPU_tb
+# ERROR: ld.so: object '/home/tim/Rowan/DigitalSystems/freetype/freetype-2.4.12/objs/.libs/libfreetype.so.6.10.1' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs="+acc"  single_cycle_CPU_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps single_cycle_CPU_tb 
+# Loading work.single_cycle_CPU_tb
+# Loading work.single_cycle_CPU
+# Loading work.instruction_memory
+# Loading work.instruction_decoder
+# Loading work.program_counter
+# Loading work.branch_control
+# Loading work.sign_extend_branch
+# Loading work.zero_fill_contstant
+# Loading work.register_file8x8
+# Loading work.mux_2_to_1
+# Loading work.function_unit
+# Loading work.data_memory
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(126): [PCDPC] - Port size (8 or 8) does not match connection size (4) for port 'DA'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(28).
+#         Region: /single_cycle_CPU_tb/dut/decoder
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(126): [PCDPC] - Port size (8 or 8) does not match connection size (4) for port 'AA'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(28).
+#         Region: /single_cycle_CPU_tb/dut/decoder
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(126): [PCDPC] - Port size (8 or 8) does not match connection size (4) for port 'BA'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(28).
+#         Region: /single_cycle_CPU_tb/dut/decoder
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(135): [PCDPC] - Port size (8 or 8) does not match connection size (4) for port 'BranchInput'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(332).
+#         Region: /single_cycle_CPU_tb/dut/pc
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(152): [PCDPC] - Port size (8 or 8) does not match connection size (4) for port 'BranchOffset'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(348).
+#         Region: /single_cycle_CPU_tb/dut/extend
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(173): [PCDPC] - Port size (3 or 3) does not match connection size (4) for port 'DA'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(245).
+#         Region: /single_cycle_CPU_tb/dut/reg_file0
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(173): [PCDPC] - Port size (3 or 3) does not match connection size (4) for port 'AA'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(245).
+#         Region: /single_cycle_CPU_tb/dut/reg_file0
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(173): [PCDPC] - Port size (3 or 3) does not match connection size (4) for port 'BA'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(245).
+#         Region: /single_cycle_CPU_tb/dut/reg_file0
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break in Module single_cycle_CPU_tb at /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU_tb.v line 32
+# Simulation Breakpoint: Break in Module single_cycle_CPU_tb at /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU_tb.v line 32
+# MACRO ./final_run_msim_rtl_verilog.do PAUSED at line 17
+restart
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(126): [PCDPC] - Port size (8 or 8) does not match connection size (4) for port 'DA'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(28).
+#         Region: /single_cycle_CPU_tb/dut/decoder
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(126): [PCDPC] - Port size (8 or 8) does not match connection size (4) for port 'AA'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(28).
+#         Region: /single_cycle_CPU_tb/dut/decoder
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(126): [PCDPC] - Port size (8 or 8) does not match connection size (4) for port 'BA'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(28).
+#         Region: /single_cycle_CPU_tb/dut/decoder
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(135): [PCDPC] - Port size (8 or 8) does not match connection size (4) for port 'BranchInput'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(332).
+#         Region: /single_cycle_CPU_tb/dut/pc
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(152): [PCDPC] - Port size (8 or 8) does not match connection size (4) for port 'BranchOffset'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(348).
+#         Region: /single_cycle_CPU_tb/dut/extend
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(173): [PCDPC] - Port size (3 or 3) does not match connection size (4) for port 'DA'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(245).
+#         Region: /single_cycle_CPU_tb/dut/reg_file0
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(173): [PCDPC] - Port size (3 or 3) does not match connection size (4) for port 'AA'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(245).
+#         Region: /single_cycle_CPU_tb/dut/reg_file0
+# ** Warning: (vsim-3015) /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(173): [PCDPC] - Port size (3 or 3) does not match connection size (4) for port 'BA'. The port definition is at: /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v(245).
+#         Region: /single_cycle_CPU_tb/dut/reg_file0
+run 155
+run 5
+run 10
+run 10
+run 10

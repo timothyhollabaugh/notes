@@ -1,0 +1,247 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/tim/Rowan/Classes/ComputerArchitecture/final/simulation/modelsim
+vbranch_control
+IGaH@:ZC:FO9W>JMkd:F^g0
+VCR^^^WA>SmjB36U<>]cbd2
+Z1 d/home/tim/Rowan/Classes/ComputerArchitecture/final/simulation/modelsim
+Z2 w1525446849
+Z3 8/home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v
+Z4 F/home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v
+L0 320
+Z5 OV;L;10.1d;51
+r1
+31
+Z6 !s108 1525447002.653591
+Z7 !s107 /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v|
+Z8 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/tim/Rowan/Classes/ComputerArchitecture/final/src|/home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU.v|
+Z9 o-vlog01compat -work work -O0
+Z10 !s92 -vlog01compat -work work +incdir+/home/tim/Rowan/Classes/ComputerArchitecture/final/src -O0
+!i10b 1
+!s100 A?Yb@e6lJ8aVXBfTCo6<M2
+!s85 0
+!s101 -O0
+vdata_memory
+IBoKEKZXjHT_XDgL1DKi6Y0
+VHjo1Y_o2=HMLQW`CbK7?z2
+R1
+R2
+R3
+R4
+L0 366
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+!i10b 1
+!s100 caPm@l5PG^;GkgI]RSR4:0
+!s85 0
+!s101 -O0
+vfunction_unit
+I7[a7?FY^CL2BT1PEWE@N01
+V@ci<2gYljQiK5Wnb^^VHE2
+R1
+R2
+R3
+R4
+L0 286
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+!i10b 1
+!s100 6iUgMgP@oTf<F[0i;zhl61
+!s85 0
+!s101 -O0
+vinstruction_decoder
+IKg:K;DJjQfZe>1QD=f[Gf1
+VX7CO@M@gXiEM[BETZ=Qzh1
+R1
+R2
+R3
+R4
+L0 28
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+!i10b 1
+!s100 j2M4_UXYHYeLLl;@aLUH40
+!s85 0
+!s101 -O0
+vinstruction_memory
+I<gLa`klVEabV3PJ:>1o`42
+VFR<QmfUWQe7`h[lflho_@0
+R1
+R2
+R3
+R4
+L0 214
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+!i10b 1
+!s100 >:n60o^:M_J7WV=NCg>=32
+!s85 0
+!s101 -O0
+vmux_2_to_1
+Iaa<mQDa4VFT<YfQ37dP[F0
+VNdF0Dz@XX8V;ZJdQK3XV00
+R1
+R2
+R3
+R4
+L0 276
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+!i10b 1
+!s100 egY=H>Y3?@O^el<853e4Y3
+!s85 0
+!s101 -O0
+vprogram_counter
+ITf8^a3Degf@M7`94<D;di0
+VzcDBGZeL;DmY2b13kSdd;1
+R1
+R2
+R3
+R4
+L0 332
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+!i10b 1
+!s100 9M0PDQb5TDXNFJXmko8>62
+!s85 0
+!s101 -O0
+vregister_file8x8
+I9KfZ<?K`goD29WIiFI06;1
+V2OJIgmZWZBoH<TKX7dWQ21
+R1
+R2
+R3
+R4
+L0 245
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+!i10b 1
+!s100 6]6cY81:WjI;z7eV35[l;2
+!s85 0
+!s101 -O0
+vsign_extend_branch
+I@i?749bM:TIm084L]Z?8^3
+VKm6n]N^?R<gW7Jb98Ai?c0
+R1
+R2
+R3
+R4
+L0 348
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+!i10b 1
+!s100 l>laX@4S>4UEA429^NJZk2
+!s85 0
+!s101 -O0
+vsingle_cycle_CPU
+IVOBWb=KE;eBEVRGb8^GH>2
+VJUE@AYU00_SCmG1L@[6mJ1
+R1
+R2
+R3
+R4
+L0 73
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+nsingle_cycle_@c@p@u
+!i10b 1
+!s100 igHk<o[U]eCo=CcX`0<jT0
+!s85 0
+!s101 -O0
+vsingle_cycle_CPU_tb
+!i10b 1
+!s100 RKUZjS[Hn4gL8K^]zKhQ=0
+I=F]PRXc]Yg6TFnN@OU2E31
+V8dD4<o0nd^MWoMl6;ebGL2
+R1
+w1525446000
+8/home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU_tb.v
+F/home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU_tb.v
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1525447002.688907
+!s107 /home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/tim/Rowan/Classes/ComputerArchitecture/final/src|/home/tim/Rowan/Classes/ComputerArchitecture/final/src/single_cycle_CPU_tb.v|
+!s101 -O0
+R9
+R10
+nsingle_cycle_@c@p@u_tb
+vzero_fill_contstant
+IY8b;bmkmjVYSF@5?YFK2V2
+V518C]Q7>Jo:`ZA91g8T9>1
+R1
+R2
+R3
+R4
+L0 357
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+!i10b 1
+!s100 nFI@NN^h0d[I4<Jocb0e_2
+!s85 0
+!s101 -O0
