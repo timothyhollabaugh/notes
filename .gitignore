@@ -16,6 +16,12 @@
 # and verilog
 !*.v
 
+# and c/cpp
+!*.c
+!*.cpp
+!*.h
+!*.hpp
+
 # but ignore quartus html things
 *.lpc.html
 
