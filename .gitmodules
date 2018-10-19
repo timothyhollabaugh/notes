@@ -1,0 +1,33 @@
+[submodule "Completed/FECII/FECMatlabWater"]
+	path = Completed/FECII/FECMatlabWater
+	url = https://github.com/timothyhollabaugh/FECMatlabWater
+[submodule "Completed/MathForEngineeringAnalysis/differential_equation_numerical_solver"]
+	path = Completed/MathForEngineeringAnalysis/differential_equation_numerical_solver
+	url = git@github.com:timothyhollabaugh/differential_equation_numerical_solver.git
+[submodule "Completed/DigitalSystems/Projects/DE0FlippyBit"]
+	path = Completed/DigitalSystems/Projects/DE0FlippyBit
+	url = git@github.com:timothyhollabaugh/DE0FlippyBit.git
+[submodule "Completed/ComputerArchitecture/legv8_asm"]
+	path = Completed/ComputerArchitecture/legv8_asm
+	url = git@github.com:timothyhollabaugh/legv8_asm.git
+[submodule "Completed/ComputerArchitecture/Comp_Arch_Processor"]
+	path = Completed/ComputerArchitecture/Comp_Arch_Processor
+	url = https://github.com/JOHNeMac36/Comp_Arch_Processor.git
+[submodule "Completed/ComputerArchitecture/CA-2-scrumpelstiltskin"]
+	path = Completed/ComputerArchitecture/CA-2-scrumpelstiltskin
+	url = git@github.com:Rowan-Comp-Arch-S18/CA-2-scrumpelstiltskin.git
+[submodule "Embedded/Projects/lab-0-introduction-to-c-and-git-timothyhollabaugh"]
+	path = Embedded/Projects/lab-0-introduction-to-c-and-git-timothyhollabaugh
+	url = git@github.com:RU09342-F18/lab-0-introduction-to-c-and-git-timothyhollabaugh.git
+[submodule "Embedded/Projects/lab-3-debouncing-and-pwm-timothyhollabaugh"]
+	path = Embedded/Projects/lab-3-debouncing-and-pwm-timothyhollabaugh
+	url = git@github.com:RU09342-F18/lab-3-debouncing-and-pwm-timothyhollabaugh.git
+[submodule "Embedded/Projects/lab-2-timers-and-interrupts-timothyhollabaugh"]
+	path = Embedded/Projects/lab-2-timers-and-interrupts-timothyhollabaugh
+	url = git@github.com:RU09342-F18/lab-2-timers-and-interrupts-timothyhollabaugh.git
+[submodule "Embedded/Projects/lab-1-gpio-timothyhollabaugh"]
+	path = Embedded/Projects/lab-1-gpio-timothyhollabaugh
+	url = git@github.com:RU09342-F18/lab-1-gpio-timothyhollabaugh.git
+[submodule "Embedded/Projects/milestone-1-tim"]
+	path = Embedded/Projects/milestone-1-tim
+	url = git@github.com:RU09342-F18/milestone-1-tim.git
