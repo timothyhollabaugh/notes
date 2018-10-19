@@ -22,6 +22,9 @@
 !*.h
 !*.hpp
 
+# and sh
+!*.sh
+
 # but ignore quartus html things
 *.lpc.html
 
