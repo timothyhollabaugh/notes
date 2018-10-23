@@ -25,6 +25,9 @@
 # and sh
 !*.sh
 
+# and readme
+!README.md
+
 # but ignore quartus html things
 *.lpc.html
 
