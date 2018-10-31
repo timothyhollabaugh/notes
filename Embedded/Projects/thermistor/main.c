@@ -1,31 +1,45 @@
-//******************************************************************************
-//   MSP430F552x Demo - ADC12, Sample A0, Set P1.0 if A0 > 0.5*AVcc
-//
-//   Description: A single sample is made on A0 with reference to AVcc.
-//   Software sets ADC12SC to start sample and conversion - ADC12SC
-//   automatically cleared at EOC. ADC12 internal oscillator times sample (16x)
-//   and conversion. In Mainloop MSP430 waits in LPM0 to save power until ADC12
-//   conversion complete, ADC12_ISR will force exit from LPM0 in Mainloop on
-//   reti. If A0 > 0.5*AVcc, P1.0 set, else reset.
-//
-//                MSP430F552x
-//             -----------------
-//         /|\|                 |
-//          | |                 |
-//          --|RST              |
-//            |                 |
-//     Vin -->|P6.0/CB0/A0  P1.0|--> LED
-//
-//   Bhargavi Nisarga
-//   Texas Instruments Inc.
-//   April 2009
-//   Built with CCSv4 and IAR Embedded Workbench Version: 4.21
-//******************************************************************************
-
 #include <msp430.h>
 
-int main(void)
-{
+#include "thermistor_10k.h"
+
+double lookup_temp(int voltage) {
+    int temp_index = voltage / THERMISTOR_STEP_DELTA + THERMISTOR_STEP_OFFSET;
+
+    if (temp_index < 0) {
+        return THERMISTOR_UNDER_TEMP;
+    } else if (temp_index = THERMISTOR_STEP_MAX) {
+        return thermistor_table[THERMISTOR_STEP_MAX];
+    } else if (temp_index > THERMISTOR_STEP_MAX) {
+        return THERMISTOR_OVER_TEMP;
+    } else {
+
+        /*   |
+         *   |                             *
+         *   |                        *
+         * T |                   *
+         * e |              *
+         * m |         *
+         * p |    *
+         *   |
+         *   |
+         *   +--------------------------------
+         *            ADC reading
+         */
+
+        double low_temp = thermistor_table[temp_index];
+        double high_temp = thermistor_table[temp_index+1];
+
+        double slope = (high_temp - low_temp) / THERMISTOR_STEP_DELTA;
+
+        double offset = slope * (voltage - temp_index * THERMISTOR_STEP_DELTA);
+
+        double temp = low_temp + offset;
+
+        return temp;
+    }
+}
+
+int main(void) {
   WDTCTL = WDTPW + WDTHOLD;                 // Stop WDT
   ADC12CTL0 = ADC12SHT02 + ADC12ON;         // Sampling time, ADC12 on
   ADC12CTL1 = ADC12SHP;                     // Use sampling timer
