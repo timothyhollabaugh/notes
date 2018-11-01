@@ -83,8 +83,9 @@ int main(void)
   UCA1IE |= UCRXIE;                         // Enable USCI_A0 RX interrupt
 
   //__bis_SR_register(LPM0_bits + GIE);       // Enter LPM0, interrupts enabled
-  //__no_operation();                         // For debugger
-  //
+  __bis_SR_register(GIE);       // Enter LPM0, interrupts enabled
+  __no_operation();                         // For debugger
+
   while(1){
       while (!(UCA1IFG&UCTXIFG));             // USCI_A0 TX buffer ready?
       UCA1TXBUF = 'a';

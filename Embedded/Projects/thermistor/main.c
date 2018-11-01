@@ -3,15 +3,18 @@
 #include "thermistor_10k.h"
 
 double lookup_temp(int voltage) {
-    int temp_index = voltage / THERMISTOR_STEP_DELTA + THERMISTOR_STEP_OFFSET;
 
-    if (temp_index < 0) {
-        return THERMISTOR_UNDER_TEMP;
-    } else if (temp_index = THERMISTOR_STEP_MAX) {
-        return thermistor_table[THERMISTOR_STEP_MAX];
-    } else if (temp_index > THERMISTOR_STEP_MAX) {
-        return THERMISTOR_OVER_TEMP;
-    } else {
+    return thermistor_table[voltage>>2]-273;
+
+//    int temp_index = voltage / THERMISTOR_STEP_DELTA;
+//
+    //if (temp_index < 0) {
+        //return 0.0;
+    //} else if (temp_index = THERMISTOR_STEP_MAX) {
+        //return thermistor_table[THERMISTOR_STEP_MAX];
+    //} else if (temp_index > THERMISTOR_STEP_MAX) {
+        //return 0.0;
+    //} else {
 
         /*   |
          *   |                             *
@@ -26,17 +29,51 @@ double lookup_temp(int voltage) {
          *            ADC reading
          */
 
-        double low_temp = thermistor_table[temp_index];
-        double high_temp = thermistor_table[temp_index+1];
+        //double low_temp = thermistor_table[temp_index];
+        //double high_temp = thermistor_table[temp_index+1];
+//
+        //double slope = (high_temp - low_temp) / THERMISTOR_STEP_DELTA;
+//
+        //double offset = slope * (voltage - temp_index * THERMISTOR_STEP_DELTA);
+//
+        //double temp = low_temp + offset;
+//
+        //return temp;
+    //}
+}
 
-        double slope = (high_temp - low_temp) / THERMISTOR_STEP_DELTA;
-
-        double offset = slope * (voltage - temp_index * THERMISTOR_STEP_DELTA);
-
-        double temp = low_temp + offset;
-
-        return temp;
+void write_serial(char* buffer) {
+    for (int i = 0; i < 8; i++) {
+        while (!(UCA1IFG && UCTXIFG));
+        UCA1TXBUF = buffer[i];
     }
+}
+
+void write_dec(int number) {
+    char buffer[9] = "00000000";
+
+    unsigned int to_convert = 0;
+
+    if (number >= 0) {
+        buffer[0] = ' ';
+        to_convert = (unsigned int) number;
+    } else {
+        buffer[0] = '-';
+        to_convert = (unsigned int) -number;
+    }
+
+    int i = 6;
+    while (to_convert != 0 && i >=0) {
+        buffer[i] = to_convert % 10 + '0';
+        to_convert /= 10;
+        i--;
+        for (int i = 0; i < 10000; i++) {
+            asm("");
+        }
+    }
+
+    buffer[7] = '\n';
+    write_serial(buffer);
 }
 
 int main(void) {
@@ -57,13 +94,19 @@ int main(void) {
   UCA1CTL1 &= ~UCSWRST;                     // **Initialize USCI state machine**
   UCA1IE |= UCRXIE;                         // Enable USCI_A0 RX interrupt
 
+  __bis_SR_register(GIE);     // LPM0, ADC12_ISR will force exit
 
   while (1)
   {
     ADC12CTL0 |= ADC12SC;                   // Start sampling/conversion
 
-    __bis_SR_register(LPM0_bits + GIE);     // LPM0, ADC12_ISR will force exit
-    __no_operation();                       // For debugger
+    int adc_value = ADC12MEM0;
+
+    double temp = lookup_temp(adc_value);
+
+    write_dec((int)temp);
+
+    __delay_cycles(10000);
   }
 }
 
