@@ -76,15 +76,20 @@ void write_dec(int number) {
     write_serial(buffer);
 }
 
-int main(void) {
+void setup_watchdog() {
   WDTCTL = WDTPW + WDTHOLD;                 // Stop WDT
+}
+
+void setup_adc() {
   ADC12CTL0 = ADC12SHT02 + ADC12ON;         // Sampling time, ADC12 on
   ADC12CTL1 = ADC12SHP;                     // Use sampling timer
   ADC12IE = 0x01;                           // Enable interrupt
   ADC12CTL0 |= ADC12ENC;
   P6SEL |= 0x01;                            // P6.0 ADC option select
   P1DIR |= 0x01;                            // P1.0 output
+}
 
+void setup_uart() {
   P4SEL |= BIT4+BIT5;                       // P3.3,4 = USCI_A0 TXD/RXD
   UCA1CTL1 |= UCSWRST;                      // **Put state machine in reset**
   UCA1CTL1 |= UCSSEL_2;                     // SMCLK
@@ -93,21 +98,55 @@ int main(void) {
   UCA1MCTL |= UCBRS_1 + UCBRF_0;            // Modulation UCBRSx=1, UCBRFx=0
   UCA1CTL1 &= ~UCSWRST;                     // **Initialize USCI state machine**
   UCA1IE |= UCRXIE;                         // Enable USCI_A0 RX interrupt
+}
 
-  __bis_SR_register(GIE);     // LPM0, ADC12_ISR will force exit
+void setup_pwm() {
+    // sets up timer 0 for pwm
 
-  while (1)
-  {
-    ADC12CTL0 |= ADC12SC;                   // Start sampling/conversion
+    // Set P1.2 to output
+    P1OUT |= BIT2;
 
-    int adc_value = ADC12MEM0;
+    // Set P1.2 for peripheral function
+    P1SEL |= BIT2;
 
-    double temp = lookup_temp(adc_value);
+    // Select clock source to SMCLK
+    TA0CTL |= TASSEL_2;
 
-    write_dec((int)temp);
+    // Set to up mode
+    TA0CTL |= MC_1;
 
-    __delay_cycles(10000);
-  }
+    // Set capture/compare 0 to 999
+    // 1kHz rate
+    TA0CCR0 = 999;
+
+    // Set capture/compare 1 to 499
+    // 50% duty cycle
+    TA0CCR1 = 499;
+
+    // Set CCR1 to Reset/Set
+    TA0CCTL1 |= OUTMOD_7;
+}
+
+int main(void) {
+
+    setup_watchdog();
+    setup_adc();
+    setup_uart();
+    setup_pwm();
+
+    __bis_SR_register(GIE);     // LPM0, ADC12_ISR will force exit
+
+    while (1) {
+        ADC12CTL0 |= ADC12SC;                   // Start sampling/conversion
+
+        int adc_value = ADC12MEM0;
+
+        double temp = lookup_temp(adc_value);
+
+        write_dec((int)temp);
+
+        __delay_cycles(10000);
+    }
 }
 
 #if defined(__TI_COMPILER_VERSION__) || defined(__IAR_SYSTEMS_ICC__)
