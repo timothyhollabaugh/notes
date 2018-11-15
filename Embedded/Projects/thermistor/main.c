@@ -76,6 +76,21 @@ void write_dec(int number) {
     write_serial(buffer);
 }
 
+void set_pwm(int value) {
+    if (value == 0) {
+        TA0CCTL1 &= ~OUT;
+        TA0CCTL1 &= ~OUTMOD_7;
+        TA0CCTL1 |= OUTMOD_0;
+    } else if (value >= 10000) {
+        TA0CCTL1 |= OUT;
+        TA0CCTL1 &= ~OUTMOD_7;
+        TA0CCTL1 |= OUTMOD_0;
+    } else {
+        TA0CCTL1 |= OUTMOD_7;
+        TA0CCR1 = value;
+    }
+}
+
 void setup_watchdog() {
     WDTCTL = WDTPW + WDTHOLD;                 // Stop WDT
 }
@@ -136,6 +151,9 @@ int main(void) {
 
     __bis_SR_register(GIE);     // LPM0, ADC12_ISR will force exit
 
+    int value = 0;
+    int acc = 1;
+
     while (1) {
         ADC12CTL0 |= ADC12SC;                   // Start sampling/conversion
 
@@ -144,8 +162,52 @@ int main(void) {
         double temp = lookup_temp(adc_value);
 
         write_dec((int)temp);
+    }
+}
 
-        __delay_cycles(10000);
+int in_buffer = 0;
+int in_digit = 4;
+
+// Echo back RXed character, confirm TX buffer is ready first
+#if defined(__TI_COMPILER_VERSION__) || defined(__IAR_SYSTEMS_ICC__)
+#pragma vector=USCI_A1_VECTOR
+__interrupt void USCI_A1_ISR(void)
+#elif defined(__GNUC__)
+void __attribute__ ((interrupt(USCI_A1_VECTOR))) USCI_A1_ISR (void)
+#else
+#error Compiler not supported!
+#endif
+{
+
+    while (!(UCA1IFG && UCTXIFG));
+
+    char in = UCA1RXBUF;
+    UCA1TXBUF = in;
+
+    if (in == 'S') {
+        in_buffer = 0;
+        in_digit = 0;
+    } else {
+        switch(in_digit) {
+            case 0:
+                in_buffer = (in - '0') * 1000;
+                in_digit = 1;
+                break;
+            case 1:
+                in_buffer += (in - '0') * 100;
+                in_digit = 2;
+                break;
+            case 2:
+                in_buffer += (in - '0') * 10;
+                in_digit = 3;
+                break;
+            case 3:
+                in_buffer += (in - '0') * 1;
+                in_digit = 4;
+                set_pwm(in_buffer);
+                //write_dec(in_buffer);
+                break;
+        }
     }
 }
 
