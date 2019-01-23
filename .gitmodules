@@ -17,17 +17,17 @@
 	path = Completed/ComputerArchitecture/CA-2-scrumpelstiltskin
 	url = git@github.com:Rowan-Comp-Arch-S18/CA-2-scrumpelstiltskin.git
 [submodule "Embedded/Projects/lab-0-introduction-to-c-and-git-timothyhollabaugh"]
-	path = Embedded/Projects/lab-0-introduction-to-c-and-git-timothyhollabaugh
+	path = Completed/Embedded/Projects/lab-0-introduction-to-c-and-git-timothyhollabaugh
 	url = git@github.com:RU09342-F18/lab-0-introduction-to-c-and-git-timothyhollabaugh.git
 [submodule "Embedded/Projects/lab-3-debouncing-and-pwm-timothyhollabaugh"]
-	path = Embedded/Projects/lab-3-debouncing-and-pwm-timothyhollabaugh
+	path = Completed/Embedded/Projects/lab-3-debouncing-and-pwm-timothyhollabaugh
 	url = git@github.com:RU09342-F18/lab-3-debouncing-and-pwm-timothyhollabaugh.git
 [submodule "Embedded/Projects/lab-2-timers-and-interrupts-timothyhollabaugh"]
-	path = Embedded/Projects/lab-2-timers-and-interrupts-timothyhollabaugh
+	path = Completed/Embedded/Projects/lab-2-timers-and-interrupts-timothyhollabaugh
 	url = git@github.com:RU09342-F18/lab-2-timers-and-interrupts-timothyhollabaugh.git
 [submodule "Embedded/Projects/lab-1-gpio-timothyhollabaugh"]
-	path = Embedded/Projects/lab-1-gpio-timothyhollabaugh
+	path = Completed/Embedded/Projects/lab-1-gpio-timothyhollabaugh
 	url = git@github.com:RU09342-F18/lab-1-gpio-timothyhollabaugh.git
 [submodule "Embedded/Projects/milestone-1-tim"]
-	path = Embedded/Projects/milestone-1-tim
+	path = Completed/Embedded/Projects/milestone-1-tim
 	url = git@github.com:RU09342-F18/milestone-1-tim.git
