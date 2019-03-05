@@ -8,6 +8,58 @@
 // define which uart channel to use
 #define UART_CHANNEL 1
 
+#define NUM_SAMPLES 512
+
+typedef enum {
+    TRIGGER_RISING,
+    TRIGGER_FALLING,
+} trigger_direction_t;
+
+uint16_t samples[NUM_SAMPLES] = {0};
+uint16_t sample_index = 0;
+
+uint16_t trigger = 2048;
+trigger_direction_t trigger_direction = TRIGGER_FALLING;
+
+void recod_sample(uint16_t value, void * state) {
+
+    uint16_t next_sample_index =
+            sample_index < NUM_SAMPLES-1? sample_index + 1 : 0;
+
+    samples[next_sample_index] = value;
+
+    if (trigger_direction == TRIGGER_RISING) {
+        if (value > samples[sample_index] && value >= trigger) {
+            send_samples();
+        }
+    } else if (trigger_direction == TRIGGER_FALLING) {
+        if (value < samples[sample_index] && value <= trigger) {
+            send_samples();
+        }
+    }
+}
+
+void send_samples() {
+    for (
+            uint16_t sample_offset = 0;
+            sample_offest < NUM_SAMPLES;
+            sample_offset++
+    ) {
+        uint16_t offset_sample_index = sample_index + sample_offset;
+
+        if (offset_sampe_index >= NUM_SAMPLES {
+            offset_sample_index -= NUM_SAMPLES;
+        }
+
+        UART_printf(
+                UART_CHANNEL,
+                "%d\t%d",
+                sample_offset,
+                samples[offset_sample_index]
+        );
+    }
+}
+
 typedef struct {
     uint16_t count;
 } counter_t;
@@ -39,6 +91,6 @@ int32_t main(void)
     // enable interrupts after modules using interrupts have been initialized
     EnableInterrupts();
     Task_Schedule(hello_world, &counter, 1000, 1000);
-    ADC_AddChannel(0, 100, report_adc, 0);
+    ADC_AddChannel(0, 1, record_sample, 0);
     while(1) SystemTick();
 }
