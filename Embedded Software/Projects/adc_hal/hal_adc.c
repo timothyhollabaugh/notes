@@ -12,6 +12,7 @@ void hal_ADC_Init(void) {
     // Set sample time, enable conversion, and enable adc
     ADC12CTL0 = ADC12SHT02 | ADC12ON;
     ADC12CTL1 = ADC12SHP;
+
 }
 
 
@@ -44,6 +45,8 @@ void setup_adc_pin(uint8_t channel) {
     }
 }
 
+uint8_t converting = 0;
+
 /** @brief hardware abstaction layer start ADC measurement for a channel
  *
  * Must be implemented for each MCU in hal_adc.c and setup the ADC to sample the given channel, automatically
@@ -53,19 +56,23 @@ void setup_adc_pin(uint8_t channel) {
 void hal_ADC_StartChannel(uint8_t channel) {
     // Setting up the pin is done here instead of hal_ADC_Init
     // because hal_ADC_Init does not know what channels to setup
-    setup_adc_pin(channel);
+    //setup_adc_pin(channel);
+
+    P1SEL |= 1 << channel;
 
     // Select the input channel
     ADC12MCTL0 = channel & 0x07;
-
-    // Enable interrupt
-    ADC12IE = 1 << channel;
 
     // Enable conversion
     ADC12CTL0 |= ADC12ENC;
 
     // Start sampling
     ADC12CTL0 |= ADC12SC;
+
+    // Enable interrupt
+    ADC12IE = 1;
+
+    converting = 1;
 }
 
 
@@ -85,9 +92,13 @@ void __attribute__ ((interrupt(ADC12_VECTOR))) ADC12_ISR (void)
   case  4: break;                           // Vector  4:  ADC timing overflow
   case  6:                                  // Vector  6:  ADC12IFG0
       // Disable interrupt
-      ADC12IE = 0;
+      //ADC12IE = 0;
       // Save measurement
-      ADC_ProcessMeasurementFromISR(ADC12MEM0);
+      if (converting) {
+          ADC_ProcessMeasurementFromISR(ADC12MEM0);
+          converting = 0;
+      }
+
 
       break;
   case  8: break;                           // Vector  8:  ADC12IFG1
