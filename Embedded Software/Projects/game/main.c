@@ -16,10 +16,12 @@ void SetVcoreUp (unsigned int level);
 int main(void)
 {
 	WDTCTL = WDTPW | WDTHOLD;	// stop watchdog timer
+	P1SEL |= BIT0;
+	P1DIR |= BIT0;
 	// speed up the clock to better handle the fast UART speed
 	SetClk24MHz();
 
-	DisableInterrupts();
+	//DisableInterrupts();
 
 	Task_Init();
 	UART_Init(SUBSYSTEM_UART);
