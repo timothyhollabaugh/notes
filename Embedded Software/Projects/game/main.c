@@ -1,6 +1,6 @@
 #include <msp430.h> 
 #include "project_settings.h"
-#include "muh_game.h"
+#include "pong.h"
 #include "subsystem.h"
 #include "task.h"
 #include "uart.h"
@@ -29,7 +29,7 @@ int main(void)
     UART_printf(SUBSYSTEM_UART, "System initing\r\n");
 	EnableInterrupts();
 
-    MuhGame_Init(); // will call Subsystem_Init
+    Pong_Init(); // will call Subsystem_Init
     Log_EchoOn(); // must be after Subsystem_Init has been called at least once
     UART_printf(SUBSYSTEM_UART, "System Initialized\r\n");
 
