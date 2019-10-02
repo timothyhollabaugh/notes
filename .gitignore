@@ -28,6 +28,9 @@
 # and readme
 !README.md
 
+# and matlab
+!*.m
+
 # but ignore quartus html things
 *.lpc.html
 
